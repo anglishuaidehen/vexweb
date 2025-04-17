@@ -1,0 +1,7 @@
+.sigma-pagination-list .sigma-pagination-item{
+  @apply flex items-center justify-center w-[45px] h-[45px] rounded-full font-semibold text-[16px]
+}
+
+.sigma-pagination-list .sigma-pagination-item.current{
+    @apply bg-sigma-brand text-white
+}

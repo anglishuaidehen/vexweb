@@ -1,0 +1,48 @@
+.sigma-banner-area.banner-underline-one .sigma-banner-line svg {
+    @apply absolute left-0 bottom-[-14px] w-full
+}
+
+.sigma-btn-wrap  .sigma-play-btn:hover .sigma-play-icon{
+    @apply bg-sigma-secondary
+}
+
+.sigma-banner-right-card{
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+.sigma-hero-slider-nav::after{
+    @apply text-[25px] text-sigma-brand
+}
+
+.sigma-banner-area:hover .sigma-hero-slider-nav{
+    @apply visible opacity-100
+}
+
+/* Banner Two */
+.banner-underline-two .sigma-banner-line svg{
+    @apply absolute sm:w-full
+}
+.banner-underline-two .sigma-banner-line svg:first-child {
+    @apply  -bottom-[2px] left-[4px]
+}
+
+.banner-underline-two .sigma-banner-line svg:last-child{
+    @apply absolute -bottom-[7px] right-[4px]
+}
+
+.sigma-banner-two .sigma-ba-items .sigma-ba-item:not(:first-child) {
+    @apply -ml-[8px]
+}
+
+.sigma-bbf-icon{
+    animation: sigma-bfi-animation 6s linear infinite;
+}
+
+.sigma-banner-image-bg {
+    width: calc(100% + 35px);
+    animation: sigma-bib-animation  15s linear infinite;
+}
+
+.sigma-bf-icon-two{
+    animation: sigma-bfi-animation-two 18s linear infinite;
+}

@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sigma LMS HTML Template</title>
+
+		<!-- Fav Icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+
+		<!-- Fonts -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css">
+		<link rel="stylesheet" href="assets/vendors/magnifi-popup/magnific-popup.css">
+		<link rel="stylesheet" href="assets/vendors/animate-css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/root.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+
+	<body class="relative">
+		<!-- =========================== Preloader Starts =========================================== -->
+
+		<div id="preloader">
+			<div class="ctn-preloader" id="ctn-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+						<span class="letters-loading" data-text-preloader="S"> S </span>
+						<span class="letters-loading" data-text-preloader="I"> I </span>
+						<span class="letters-loading" data-text-preloader="G"> G </span>
+						<span class="letters-loading" data-text-preloader="M"> M </span>
+						<span class="letters-loading" data-text-preloader="A"> A </span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Preloader Ends =========================================== -->
+
+		<!-- =========================== Back To Top Starts =========================================== -->
+		<div class="sigma-bt-top inline-block  rounded-[4px] fixed -bottom-[10%] right-[30px] transition-all duration-700 ease-in-out opacity-0 invisible z-[100] border-none cursor-pointer">
+			<button class="scroll__top scroll-to-target inline-block w-[50px] h-[50px] leading-[50px] bg-sigma-border-light text-heading  text-[20px] text-center transition-all duration-300 ease-in-out  hover:bg-sigma-accent hover:text-white" data-target="html">
+				<i class="fas fa-angle-up text-[25px] leading-[25px]"></i>
+			</button>
+		</div>
+
+		<!-- =========================== Back To Top Ends =========================================== -->
+		<!-- =========================== Header Area Start =========================================== -->
+
+		<header class="sigma-header-area sigma-header-dark sigma-sticky-header bg-sigma-brand">
+			<div class="container-md">
+				<div class="sigma-header-wrap flex justify-between items-center py-[20px]">
+					<div class="sigma-header-left flex gap-[65px] xx:gap-[40px] items-center xl:flex-row-reverse">
+						<div class="sigma-logo -mt-[25px] xl:hidden">
+							<a href="index.html"><img class="-ml-[10px]" src="assets/image/logo/logo.png" alt="VEX Robotics Logo"></a>
+						</div>
+						<div class="sigma-header-category mr-[20px] transition-all duration-300 ease-in-out relative xl:hidden">
+							<nav id="sigma-category-menu" class="sigma-category-menu flex items-center gap-[4px] pr-25 relative">
+								<div class="sigma-category-title-wrap flex items-center gap-[4px] ">
+									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+										<path d="M12.25 9.33332V4.66665C12.2498 4.46206 12.1958 4.26112 12.0934 4.084C11.991 3.90687 11.8438 3.75978 11.6667 3.65748L7.58333 1.32415C7.40598 1.22175 7.20479 1.16785 7 1.16785C6.79521 1.16785 6.59402 1.22175 6.41667 1.32415L2.33333 3.65748C2.15615 3.75978 2.00899 3.90687 1.9066 4.084C1.80422 4.26112 1.75021 4.46206 1.75 4.66665V9.33332C1.75021 9.53791 1.80422 9.73884 1.9066 9.91597C2.00899 10.0931 2.15615 10.2402 2.33333 10.3425L6.41667 12.6758C6.59402 12.7782 6.79521 12.8321 7 12.8321C7.20479 12.8321 7.40598 12.7782 7.58333 12.6758L11.6667 10.3425C11.8438 10.2402 11.991 10.0931 12.0934 9.91597C12.1958 9.73884 12.2498 9.53791 12.25 9.33332Z" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.9075 4.06006L7 7.00589L12.0925 4.06006" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M7 12.88V7" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+
+									<span class="sigma-category-title cursor-pointer">Categories</span>
+									<span class="sigma-cat-down-arrow">
+										<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+											<path d="M5.5 2.29163V8.29163" stroke="#FFFEF9" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M8.70833 5.5L5.5 8.70833L2.29166 5.5" stroke="#FFFEF9" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</span>
+								</div>
+								<ul class="sigma-category-items">
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Business</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Affiliate</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Algebra</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Calculus</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Biology</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Chemistry</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="sigma-menu-container">
+							<div class="sigma-main-menu-wrap xl:hidden">
+								<nav class="sigma-main-menu">
+									<ul class="sigma-menu">
+										<li class="menu-item-has-children current-menu-item active">
+											<a href="index.html">Home</a>
+											<ul class="sub-menu">
+												<li class="active"><a href="index.html">Home</a></li>
+												<li><a href="index-2.html">Home Two</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="index.html">About</a>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="index.html">Course</a>
+											<!--ul class="sub-menu">
+												<li class="menu-item-has-children">
+													<a href="course-page.html">Course</a>
+													<ul class="sub-menu">
+														<li><a href="index.html">Course</a></li>
+														<li><a href="index.html">Course Left Sidebar</a></li>
+														<li><a href="index.html">Course Right Sidebar</a></li>
+													</ul>
+												</li>
+												<li><a href="course-details.html">Course Details</a></li>
+											</ul-->
+										</li>
+										<li class="menu-item-has-children">
+											<a href="#">Pages</a>
+											<!--ul class="sub-menu">
+												<li class="menu-item-has-children">
+													<a href="shop.html">Shop</a>
+													<ul class="sub-menu">
+														<li><a href="index.html">Shop</a></li>
+														<li><a href="index.html">Shop Details</a></li>
+														<li><a href="index.html">Cart</a></li>
+														<li><a href="index.html">Wishlist</a></li>
+														<li><a href="index.html">Checkout</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children">
+													<a href="index..html">Instructor</a>
+													<ul class="sub-menu">
+														<li><a href="index.html">Instructor</a></li>
+														<li><a href="index.html">Instructor Details</a></li>
+													</ul>
+												</li>
+												<li><a href="index.html">Contact</a></li>
+												<li><a href="index.html">Sign Up</a></li>
+												<li><a href="index.html">Sign In</a></li>
+												<li><a href="index.html">404 Page</a></li>
+											</ul-->
+										</li>
+										<li class="menu-item-has-children">
+											<a href="blog.html">Blog</a>
+											<!--ul class="sub-menu">
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="blog-single.html">Blog Single</a></li>
+											</ul-->
+										</li>
+									</ul>
+								</nav>
+							</div>
+
+							<div class="sigma-mobile-menu-wrap hidden xl:block">
+								<div class="sigma-mobile-menu-toggle">
+									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+										<path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+									</svg>
+								</div>
+								<div class="sigma-mobile-menu  hidden">
+									<div class="sigma-mobile-menu-box">
+										<div class="sigma-mobile-menu-top flex justify-between items-center">
+											<div class="sigma-close-btn close-btn"><i class="fas fa-times"></i></div>
+											<div class="sigma-user-icon hidden lg:block">
+												<a href="signin.html"><i class="fa-regular fa-user"></i></a>
+											</div>
+										</div>
+										<div class="sigma-logo mt-[20px]">
+											<a href="index.html"><img src="assets/image/logo/logo.png" alt="Logo"></a>
+										</div>
+										<div class="sigma-mobile-menu-outer">
+											<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+										</div>
+										<div class="sigma-mobile-category-outer mt-[40px]">
+
+										</div>
+									</div>
+								</div>
+								<div class="sigma-mobile-menu-backdrop"></div>
+							</div>
+						</div>
+					</div>
+					<div class="sigma-header-middle hidden xl:flex">
+						<div class="sigma-logo -mt-[30px]">
+							<a href="index.html"><img src="assets/image/logo/logo.png" alt="Logo"></a>
+						</div>
+					</div>
+					<div class="sigma-header-right flex items-center gap-[20px]">
+						<div class="sigma-header-search relative cursor-pointer">
+							<a class="icons" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M21 21L16.65 16.65" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+
+							<div class="sigma-header-top-search ">
+								<form action="#">
+									<input type="text" placeholder="Search here...">
+								</form>
+							</div>
+						</div>
+						<div class="sigma-header-cart relative cursor-pointer">
+							<div class="sigma-badge">5</div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+								<path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+						<div class="sigma-user flex items-center xl:hidden">
+							<a class="sigma-btn user-item" href="signaup.html">Sign Up</a>
+							<a class="sigma-btn user-item" href="signin.html">Sign In</a>
+						</div>
+						<div class="sigma-user-icon hidden xl:flex ml-[8px]">
+							<a href="signin.html"><i class="fa-regular fa-user"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- =========================== Header Area Ends =========================================== -->
+
+		<!-- =========================== Hero Area Start =========================================== -->
+		<div class="sigma-banner-area banner-underline-one bg-sigma-brand transition-all duration-300 ease-in-out">
+			<div class="container-md">
+				<div class="grid grid-cols-12 gap-[30px] lg:flex lg:flex-col-reverse lg:gap-[50px] py-[120px] md:py-[60px] sm:py-[40px]">
+					<div class="col-span-6 lg:col-span-12">
+						<h1 class="sigma-banner-title m-0 tracking-[-0.02em] text-white text-[60px] leading-[72px] xx:text-[55px] xx:leading-[70px] xl:text-[45px] xl:leading-[58px] sm:text-[30px] sm:leading-[48px] lg:text-center">
+							Master Robotics with
+							<span class="sigma-banner-line text-sigma-secondary relative inline-block">0 To 1 Vex
+								<svg xmlns="http://www.w3.org/2000/svg" width="148" height="27" viewBox="0 0 148 27" fill="none">
+									<path d="M2.69095 15.081C2.69095 15.081 93.6198 1.65347 145.276 11.1405" stroke="#FFB840" stroke-width="4" stroke-linecap="round"/>
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="148" height="27" viewBox="0 0 148 27" fill="none">
+									<path d="M2.55178 9.82677C2.55178 9.82677 93.8607 5.46228 145.479 20.0388" stroke="#FFB840" stroke-width="4" stroke-linecap="round"/>
+								</svg>
+							</span>
+							Robotics
+							<br>
+							From Zero to Hero in Engineering
+						</h1>
+
+						<p class="sigma-hero-text text-white font-medium leading-[35px] text-[20px] font-primary w-[515px] xl:text-[18px] xl:leading-[32px] xl:pt-20 xl:w-[100%] sm:text-[16px] pt-[40px] lg:text-center">
+							Transform your future with our comprehensive VEX robotics and engineering programs. From VEX IQ to VEX V5, we offer hands-on learning in robotics, electrical engineering, and mechanical engineering.
+						</p>
+
+						<div class="sigma-banner-buttons flex gap-[20px] pt-[40px] lg:justify-center">
+							<a href="#programs" class="sigma_btn btn-primary">Explore Programs</a>
+							<a href="#contact" class="sigma_btn btn-outline-white">Contact Us</a>
+						</div>
+					</div>
+					<div class="col-span-6 lg:col-span-12">
+						<div class="sigma-banner-image text-end flex justify-end relative lg:justify-center md:w-[70%] md:m-auto sm:w-full">
+							<img class="sigma-banner-thumb rounded-[50%] max-w-full" src="assets/p1.jpg" alt="Banner Image">
+							<div class="sigma-banner-left-card flex text-start items-center absolute px-[16px] py-[12px] gap-[19px] left-0 bottom-[95px] rounded-[16px] bg-white border-[1px] border-solid border-sigma-color-dd z-[1] md:hidden">
+								<div class="sigma-card-thumb">
+									<img class="sigma-card-img w-[47px] h-[47px] rounded-[50%]" src="assets/logom.png" alt="Card Image">
+								</div>
+								<div class="sigma-banner-card-info">
+									<h5 class="sigma-card-title text-sigma-title-80 text-[16px] leading-[28px] -tracking-[0.16px] mb-0">Vex Team Class</h5>
+									<div class="sigma-card-progress-bar">
+										<h6 class="sigma-card-progress-title text-sigma-title-50 text-[12px] leading-[26px] font-normal mb-0">Advanced</h6>
+										<div class="sigma-card-progress-inner relative rounded-[4px] h-[4px] w-full bg-sigma-color-dd overflow-hidden">
+											<div class="sigma-card-progress absolute rounded-[4px] h-[4px] w-[75%] top-0 left-0 bg-sigma-secondary"></div>
+										</div>
+									</div>
+								</div>
+                
+							</div>
+
+              	<div class="sigma-banner-right-card md:hidden text-start bg-white absolute -top-[25px] -right-[9rem] pt-[24px] pb-[24px] pl-[24px] rounded-[12px] border-[1px] border-solid border-[#EAECF0] z-[-1]">
+											<h5 class="sigma-bc-subtitle text-sigma-title-50 text-[16px] font-semibold leading-[26px] mb-0"> Courses Viewed</h5>
+											<h4 class="sigma-bc-timing text-sigma-title text-[24px] leading-[39px] -tracking-[.48px] mt-[5px] mb-0">
+												45 Hours</h4>
+											<p class="sigma-bc-text text-[16px] font-semibold leading-[26px] font-primary text-sigma-black-70">
+												<span class="sigma-rc-icon inline-block mr-[5px] text-[14px] leading-[20px] font-semibold text-sigma-success-700">
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+														<path d="M10 15.8333V4.16663M10 4.16663L4.16669 9.99996M10 4.16663L15.8334 9.99996" stroke="#12B76A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+													200%
+												</span>
+												last month
+											</p>
+											<div class="sigma-card-img">
+												<svg xmlns="http://www.w3.org/2000/svg" width="190" height="99" viewBox="0 0 190 99" fill="none">
+													<path d="M162 1C135.843 3.62656 134.223 66.5081 108.333 73.75C86.9843 79.7219 76.1738 45.8228 54.6667 49.5C31.3389 53.4885 23.8739 88.8125 1 98H162V1Z" fill="#ECFDF3" />
+													<path d="M162 1C135.843 3.62656 134.223 66.5081 108.333 73.75C86.9843 79.7219 76.1738 45.8228 54.6667 49.5C31.3389 53.4885 23.8739 88.8125 1 98H162V1Z" fill="url(#paint0_linear_1363_116932)" />
+													<path d="M1 98C23.8739 88.8125 31.3389 53.4885 54.6667 49.5C76.1738 45.8228 86.9843 79.7219 108.333 73.75C134.223 66.5081 135.843 3.62657 162 1" stroke="#12B76A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													<defs>
+														<lineargradient id="paint0_linear_1363_116932" x1="81.5" y1="1" x2="81.5" y2="98" gradientUnits="userSpaceOnUse">
+															<stop offset="0.641167" stop-color="white" stop-opacity="0" />
+															<stop offset="1" stop-color="white" />
+														</lineargradient>
+													</defs>
+												</svg>
+											</div>
+										</div>
+							<div class="sigma-banner-right-card md:hidden text-start bg-white absolute -top-[25px] -right-[9rem] pt-[24px] pb-[24px] pl-[24px] rounded-[12px] border-[1px] border-solid border-[#EAECF0] z-[-1]">
+								<h4 class="sigma-bc-timing text-sigma-title text-[24px] leading-[39px] -tracking-[.48px] mt-[5px] mb-0">45 Hours</h4>
+								<p class="sigma-bc-text text-[16px] font-semibold leading-[26px] font-primary text-sigma-black-70">
+									<span class="sigma-rc-icon inline-block mr-[5px] text-[14px] leading-[20px] font-semibold text-sigma-success-700">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+											<path d="M10 15.8333V4.16663M10 4.16663L4.16669 9.99996M10 4.16663L15.8334 9.99996" stroke="#12B76A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										200%
+									</span>
+									last month
+								</p>
+								<div class="sigma-card-img">
+									<svg xmlns="http://www.w3.org/2000/svg" width="190" height="99" viewBox="0 0 190 99" fill="none">
+										<path d="M162 1C135.843 3.62656 134.223 66.5081 108.333 73.75C86.9843 79.7219 76.1738 45.8228 54.6667 49.5C31.3389 53.4885 23.8739 88.8125 1 98H162V1Z" fill="#ECFDF3" />
+										<path d="M162 1C135.843 3.62656 134.223 66.5081 108.333 73.75C86.9843 79.7219 76.1738 45.8228 54.6667 49.5C31.3389 53.4885 23.8739 88.8125 1 98H162V1Z" fill="url(#paint0_linear_1363_116932)" />
+										<path d="M1 98C23.8739 88.8125 31.3389 53.4885 54.6667 49.5C76.1738 45.8228 86.9843 79.7219 108.333 73.75C134.223 66.5081 135.843 3.62657 162 1" stroke="#12B76A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<defs>
+											<lineargradient id="paint0_linear_1363_116932" x1="81.5" y1="1" x2="81.5" y2="98" gradientUnits="userSpaceOnUse">
+												<stop offset="0.641167" stop-color="white" stop-opacity="0" />
+												<stop offset="1" stop-color="white" />
+											</lineargradient>
+										</defs>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="sigma-banner-image text-end flex justify-end relative lg:justify-center md:w-[70%] md:m-auto sm:w-full mt-[30px]">
+							<img class="sigma-banner-thumb rounded-[50%] max-w-full" src="assets/image/hero/hero-1.png" alt="VEX Robotics">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Hero Area Ends =========================================== -->
+
+		<!-- =========================== Popular Course Area Start =========================================== -->
+		<div class="sigma-course-area sigma-section-specing-has-bg bg-sigma-section-bg sigma-animation -mt-[60px]">
+			<div class="container-fluid">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px]">Popular Courses</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						A curated collection of amazing courses, chosen based on
+						popularity and ratings by students.
+					</p>
+				</div>
+
+				<div class="sigma-course-items pt-[60px] md:pt-[40px]">
+					<div class="grid grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 mls:grid-cols-1 gap-x-[30px] gap-y-[40px]">
+						<div class="sigma-course-item overflow-hidden shadow-[0_34.358px_171.789px_0_rgba(0,0,0,0.11)] bg-white rounded-[8px] sigma-animation">
+							<div class="sigma-course-thum">
+								<a class="course-img inline-block w-full overflow-hidden" href="course-details.html">
+									<img class="w-full duration-500 hover:scale-[1.2]" src="assets/p2.jpg" alt="VEX VRC Competition Team">
+								</a>
+							</div>
+							<div class="sigma-course-details-wrap py-[20px] px-[15px]">
+								<div class="sigma-course-details-top flex justify-between flex-wrap items-center gap-[10px]">
+									<div class="sigma-course-rating text-[14px] font-bold text-sigma-title flex gap-[5px] items-center">
+										<div class="sigma-rating-star">
+											<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.60784 1L7.03167 4.13L10.2157 4.635L7.91176 7.07L8.45549 10.51L5.60784 8.885L2.7602 10.51L3.30392 7.07L1 4.635L4.18402 4.13L5.60784 1Z" fill="#FFB840" stroke="#FFB840" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</div>
+										<span class="sigma-rating-percent text-heading font-semibold">4.9</span>
+										<span class="sigma-rating-number text-paragraph font-semibold">(31)</span>
+									</div>
+									<div class="sigma-course-category">
+										<div class="sigma-category-list flex gap-[10px]">
+											<a href="course-page.html">VEX VRC</a>
+										</div>
+									</div>
+								</div>
+								<div class="sigma-course-title-wrap pt-[20px]">
+									<h5 class="sigma-course-title mb-0 text-[20px] leading-[30px]">
+										<a href="course-details.html">VEX VRC Competition Team</a>
+									</h5>
+								</div>
+								<div class="sigma-course-author-wrap flex items-center pt-[20px] gap-[10px]">
+									<div class="sigma-ca-thum">
+										<a href="course-page.html"><img src="assets/logos.png" alt="user"></a>
+									</div>
+									<div class="sigma-ca-name">
+										<a class="text-sigma-black-70 text-[16px] leading-[28px] font-bold" href="course-page.html">0 To 1 Vex</a>
+									</div>
+								</div>
+								<div class="sigma-course-meta-wrap flex items-center justify-between gap-[10px] flex-wrap pt-[20px]">
+									<div class="sigma-course-lessons flex items-center gap-[5px]">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_51154)">
+												<path d="M6.99999 1.16669L1.16666 4.08335L6.99999 7.00002L12.8333 4.08335L6.99999 1.16669Z" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1.16666 9.91669L6.99999 12.8334L12.8333 9.91669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1.16666 7L6.99999 9.91667L12.8333 7" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clippath id="clip0_536_51154">
+													<rect width="14" height="14" fill="white" />
+												</clippath>
+											</defs>
+										</svg>
+										<span class="sigma-lessons-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Grade 6-12</span>
+									</div>
+									<div class="sigma-course-time flex items-center gap-[5px]">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_51161)">
+												<path d="M6.99999 12.8334C10.2217 12.8334 12.8333 10.2217 12.8333 7.00002C12.8333 3.77836 10.2217 1.16669 6.99999 1.16669C3.77833 1.16669 1.16666 3.77836 1.16666 7.00002C1.16666 10.2217 3.77833 12.8334 6.99999 12.8334Z" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M7 3.5V7L9.33333 8.16667" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clippath id="clip0_536_51161">
+													<rect width="14" height="14" fill="white" />
+												</clippath>
+											</defs>
+										</svg>
+										<span class="sigma-time-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Unlimited</span>
+									</div>
+									<div class="sigma-course-status flex items-center gap-[5px]">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8 13.3334V6.66669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M12 13.3334V2.66669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M4 13.3334V10.6667" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										<span class="sigma-status-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Mid Level +</span>
+									</div>
+								</div>
+								<div class="sigma-course-footer border-t-[1px] border-solid border-[rgba(210, 210, 210, 0.4)] pt-[15px] mt-[20px]">
+									<div class="sigma-course-price-wrap flex items-center justify-between gap-[10px]">
+										<div class="sigma-course-price flex items-baseline gap-[5px]">
+											<span class="sigma-sell-price text-[18px] font-bold text-sigma-title leading-[28px] -tracking-[.36px]">$850 - $1000</span>
+	
+											<span class="text-[14px] text-sigma-title-50">/month</span>
+										</div>
+										<div class="sigma-course-cart-btn">
+											<a class="flex items-center justify-center h-[35px] bg-sigma-accent rounded-[4px] py-[4px] px-[12px] hover:bg-sigma-brand" href="course-details.html"><img src="assets/image/icon/cart-icon.png" alt="cart-icon"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="sigma-course-item overflow-hidden shadow-[0_34.358px_171.789px_0_rgba(0,0,0,0.11)] bg-white rounded-[8px] sigma-animation">
+							<div class="sigma-course-thum">
+								<a class="course-img inline-block w-full overflow-hidden" href="course-details.html">
+									<img class="w-full duration-500 hover:scale-[1.2]" src="assets/p3.jpg" alt="VEX IQ">
+								</a>
+							</div>
+							<div class="sigma-course-details-wrap py-[20px] px-[15px]">
+								<div class="sigma-course-details-top flex justify-between flex-wrap items-center gap-[10px]">
+									<div class="sigma-course-rating text-[14px] font-bold text-sigma-title flex gap-[5px] items-center">
+										<div class="sigma-rating-star">
+											<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.60784 1L7.03167 4.13L10.2157 4.635L7.91176 7.07L8.45549 10.51L5.60784 8.885L2.7602 10.51L3.30392 7.07L1 4.635L4.18402 4.13L5.60784 1Z" fill="#FFB840" stroke="#FFB840" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</div>
+										<span class="sigma-rating-percent text-heading font-semibold">4.9</span>
+										<span class="sigma-rating-number text-paragraph font-semibold">(31)</span>
+									</div>
+									<div class="sigma-course-category">
+										<div class="sigma-category-list flex gap-[10px]">
+											<a href="course-page.html">VEX IQ</a>
+										</div>
+									</div>
+								</div>
+								<div class="sigma-course-title-wrap pt-[20px]">
+									<h5 class="sigma-course-title mb-0 text-[20px] leading-[30px]">
+										<a href="course-details.html">VEX IQ Competition Team</a>
+									</h5>
+								</div>
+								<div class="sigma-course-author-wrap flex items-center pt-[20px] gap-[10px]">
+									<div class="sigma-ca-thum">
+										<a href="course-page.html"><img src="assets/logos.png" alt="user"></a>
+									</div>
+									<div class="sigma-ca-name">
+										<a class="text-sigma-black-70 text-[16px] leading-[28px] font-bold" href="course-page.html">0 To 1 Vex</a>
+									</div>
+								</div>
+								<div class="sigma-course-meta-wrap flex items-center justify-between gap-[10px] flex-wrap pt-[20px]">
+									<div class="sigma-course-lessons flex items-center gap-[5px]">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_51154)">
+												<path d="M6.99999 1.16669L1.16666 4.08335L6.99999 7.00002L12.8333 4.08335L6.99999 1.16669Z" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1.16666 9.91669L6.99999 12.8334L12.8333 9.91669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1.16666 7L6.99999 9.91667L12.8333 7" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clippath id="clip0_536_51154">
+													<rect width="14" height="14" fill="white" />
+												</clippath>
+											</defs>
+										</svg>
+										<span class="sigma-lessons-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Grade 2-6</span>
+									</div>
+									<div class="sigma-course-time flex items-center gap-[5px]">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_51161)">
+												<path d="M6.99999 12.8334C10.2217 12.8334 12.8333 10.2217 12.8333 7.00002C12.8333 3.77836 10.2217 1.16669 6.99999 1.16669C3.77833 1.16669 1.16666 3.77836 1.16666 7.00002C1.16666 10.2217 3.77833 12.8334 6.99999 12.8334Z" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M7 3.5V7L9.33333 8.16667" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clippath id="clip0_536_51161">
+													<rect width="14" height="14" fill="white" />
+												</clippath>
+											</defs>
+										</svg>
+										<span class="sigma-time-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Unlimited</span>
+									</div>
+									<div class="sigma-course-status flex items-center gap-[5px]">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8 13.3334V6.66669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M12 13.3334V2.66669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M4 13.3334V10.6667" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										<span class="sigma-status-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Beginner Level +</span>
+									</div>
+								</div>
+								<div class="sigma-course-footer border-t-[1px] border-solid border-[rgba(210, 210, 210, 0.4)] pt-[15px] mt-[20px]">
+									<div class="sigma-course-price-wrap flex items-center justify-between gap-[10px]">
+										<div class="sigma-course-price flex items-baseline gap-[5px]">
+											<span class="sigma-sell-price text-[18px] font-bold text-sigma-title leading-[28px] -tracking-[.36px]">$750 - $900</span>
+										  <!--<span class="text-[14px] text-sigma-title-50">- $900</span>-->
+											<span class="text-[14px] text-sigma-title-50">/month</span>
+										</div>
+										<div class="sigma-course-cart-btn">
+											<a class="flex items-center justify-center h-[35px] bg-sigma-accent rounded-[4px] py-[4px] px-[12px] hover:bg-sigma-brand" href="course-details.html"><img src="assets/image/icon/cart-icon.png" alt="cart-icon"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="sigma-course-item overflow-hidden shadow-[0_34.358px_171.789px_0_rgba(0,0,0,0.11)] bg-white rounded-[8px] sigma-animation">
+							<div class="sigma-course-thum">
+								<a class="course-img inline-block w-full overflow-hidden" href="course-details.html">
+									<img class="w-full duration-500 hover:scale-[1.2]" src="assets/p5.jpg" alt="VEX VRC">
+								</a>
+							</div>
+							<div class="sigma-course-details-wrap py-[20px] px-[15px]">
+								<div class="sigma-course-details-top flex justify-between flex-wrap items-center gap-[10px]">
+									<div class="sigma-course-rating text-[14px] font-bold text-sigma-title flex gap-[5px] items-center">
+										<div class="sigma-rating-star">
+											<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.60784 1L7.03167 4.13L10.2157 4.635L7.91176 7.07L8.45549 10.51L5.60784 8.885L2.7602 10.51L3.30392 7.07L1 4.635L4.18402 4.13L5.60784 1Z" fill="#FFB840" stroke="#FFB840" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</div>
+										<span class="sigma-rating-percent text-heading font-semibold">4.9</span>
+										<span class="sigma-rating-number text-paragraph font-semibold">(31)</span>
+									</div>
+									<div class="sigma-course-category">
+										<div class="sigma-category-list flex gap-[10px]">
+											<a href="course-page.html">VEX VRC</a>
+										</div>
+									</div>
+								</div>
+								<div class="sigma-course-title-wrap pt-[20px]">
+									<h5 class="sigma-course-title mb-0 text-[20px] leading-[30px]">
+										<a href="course-details.html">VEX VRC Preparation Team</a>
+									</h5>
+								</div>
+								<div class="sigma-course-author-wrap flex items-center pt-[20px] gap-[10px]">
+									<div class="sigma-ca-thum">
+										<a href="course-page.html"><img src="assets/logos.png" alt="user"></a>
+									</div>
+									<div class="sigma-ca-name">
+										<a class="text-sigma-black-70 text-[16px] leading-[28px] font-bold" href="course-page.html">0 To 1 Vex</a>
+									</div>
+								</div>
+								<div class="sigma-course-meta-wrap flex items-center justify-between gap-[10px] flex-wrap pt-[20px]">
+									<div class="sigma-course-lessons flex items-center gap-[5px]">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_51154)">
+												<path d="M6.99999 1.16669L1.16666 4.08335L6.99999 7.00002L12.8333 4.08335L6.99999 1.16669Z" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1.16666 9.91669L6.99999 12.8334L12.8333 9.91669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1.16666 7L6.99999 9.91667L12.8333 7" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clippath id="clip0_536_51154">
+													<rect width="14" height="14" fill="white" />
+												</clippath>
+											</defs>
+										</svg>
+										<span class="sigma-lessons-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Grade 5-12</span>
+									</div>
+									<div class="sigma-course-time flex items-center gap-[5px]">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_51161)">
+												<path d="M6.99999 12.8334C10.2217 12.8334 12.8333 10.2217 12.8333 7.00002C12.8333 3.77836 10.2217 1.16669 6.99999 1.16669C3.77833 1.16669 1.16666 3.77836 1.16666 7.00002C1.16666 10.2217 3.77833 12.8334 6.99999 12.8334Z" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M7 3.5V7L9.33333 8.16667" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clippath id="clip0_536_51161">
+													<rect width="14" height="14" fill="white" />
+												</clippath>
+											</defs>
+										</svg>
+										<span class="sigma-time-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">2 Hours/Week</span>
+									</div>
+									<div class="sigma-course-status flex items-center gap-[5px]">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8 13.3334V6.66669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M12 13.3334V2.66669" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M4 13.3334V10.6667" stroke="#03071E" stroke-opacity="0.6" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										<span class="sigma-status-text text-sigma-title-60 font-semibold text-[14px] leading-[22px] tracking-[.28px]">Beginner Level +</span>
+									</div>
+								</div>
+								<div class="sigma-course-footer border-t-[1px] border-solid border-[rgba(210, 210, 210, 0.4)] pt-[15px] mt-[20px]">
+									<div class="sigma-course-price-wrap flex items-center justify-between gap-[10px]">
+										<div class="sigma-course-price flex items-baseline gap-[5px]">
+											<span class="sigma-sell-price text-[18px] font-bold text-sigma-title leading-[28px] -tracking-[.36px]">$350</span>
+											<span class="text-[14px] text-sigma-title-50">/month</span>
+										</div>
+										<div class="sigma-course-cart-btn">
+											<a class="flex items-center justify-center h-[35px] bg-sigma-accent rounded-[4px] py-[4px] px-[12px] hover:bg-sigma-brand" href="course-details.html"><img src="assets/image/icon/cart-icon.png" alt="cart-icon"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-more-courses text-center pt-[60px] md:pt-[40px]">
+					<a class="sigma-btn sigma-btn-transparent sigma-btn-icon" href="course-page.html">
+						Explore All Categories
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#03071E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Popular Course Area Ends =========================================== -->
+
+		<!-- =========================== Instructors Area Start =========================================== -->
+		<div class="sigma-instructors-area sigma-section-padding sigma-animation">
+			<div class="container-fluid">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px]">Top Instructors</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						Choose the best contents out of greatest instructors available online.Choose from the elites.
+					</p>
+				</div>
+
+				<div class="sigma-instructor-list pt-[60px] md:pt-[40px]">
+					<div class="grid grid-cols-6 xl:grid-cols-3 mls:grid-cols-2 mm:grid-cols-1 gap-[30px]">
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/ins1.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Olivia Rhye</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Coach</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/ins1.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Bejacky Cah</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Coach</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/ins1.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Malcolm Menon</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Coach</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/ins3.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Toden Kalam</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Coach</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/ins3.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Demi Wilkinson</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Coach</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/ins3.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Cohan Enhel</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-more-instructors text-center pt-[60px] md:pt-[40px]">
+					<a class="sigma-btn sigma-btn-transparent sigma-btn-icon" href="instructor-1.html">
+						View All Instructors
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#03071E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Instructors Area Ends =========================================== -->
+
+		<!-- =========================== Testimonial Area Start =========================================== -->
+		<div class="sigma-testimonial-area sigma-section-specing-has-bg bg-sigma-section-bg sigma-animation">
+			<div class="container-fluid">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px]">Reviews & Ratings</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						Average client rating 4.8/5
+						<span class="inline-block">
+							<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.3747 5.78782L11.0497 5.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="#F5A623" />
+							</svg>
+						</span>
+					</p>
+				</div>
+				<div class="sigma-testimonial-items mt-[60px] md:mt-[40px]">
+					<div class="swiper testimonialSlider ">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_135" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-01.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Jamie Watson</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Instructor</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_1235" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-02.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Nean Keller</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Student</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap  gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_1315" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-03.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Wulen Carter</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Student</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_2277_135" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-02.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Wulen Carter</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Instructor</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_1385" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-01.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Jamie Watson</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Instructor</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Navigation -->
+						<div class="swiper-button-next sigma-testimonial-slider-nav right-0  after:hidden">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M5 12L19 12" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M12 5L19 12L12 19" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev sigma-testimonial-slider-nav left-0 after:hidden">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M19 12H5" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M12 19L5 12L12 5" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Testimonial Area Ends =========================================== -->
+
+		<!-- =========================== Blog Area Start =========================================== -->
+		<!--div class="sigma-blog-area sigma-section-padding sigma-animation" >
+			<div class="container-fluid">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px]">Latest Articles</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						Read our carefully crafted articles and learn great things
+						in a very short time. Keep learning & growing.
+					</p>
+				</div>
+
+				<div class="sigma-blog-item-lists pt-[60px] md:pt-[40px]">
+					<div class="grid grid-cols-4 gap-[30px] xl:grid-cols-2 mls:grid-cols-1">
+						<div class="sigma-blog-itme-wrap sigma-animation">
+							<div class="sigma-post-thum mb-[20px]">
+								<a class="sigma-post-img block w-full overflow-hidden" href="blog-single.html">
+									<img class="w-full duration-500  hover:scale-[1.2]" src="assets/image/blog/blog-01.png" alt="Post One">
+								</a>
+							</div>
+							<div class="sigma-post-details-wrap">
+								<div class="sigma-post-meta flex flex-wrap gap-[10px]">
+									<a href="blog.html" class="sigma-post-author-name text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] relative pr-[15px] before:content-[' '] before:absolute before:top-[7px] before:right-0 before:w-[5px] before:h-[5px] before:rounded-[50%] before:bg-[#6941C6] before:hover:bg-sigma-secondary before:transition-all before:duration-300 before:ease-in-out">Momin Khan</a>
+									<a href="blog.html" class="sigma-post-date text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] ">19 Jan 2022</a>
+								</div>
+								<div class="sigma-post-title-wrap pt-[15px]">
+									<h2 class="sigma-post-title font-secondary text-2xl text-[24px] font-semibold leading-[32px] mb-0">
+										<a class="flex gap-[30px] justify-between text-heading font-secondary" href="blog-single.html">
+											Arranging books in a library
+											<span>
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#1B1818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</span>
+										</a>
+									</h2>
+								</div>
+								<p class="sigma-post-excerpt pt-[15px] text-sigma-gray-600 font-secondary text-[16px] leading-[24px]">
+									Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.
+								</p>
+								<div class="sigma-blog-category pt-[30px]">
+									<div class="sigma-category-list flex flex-wrap gap-[10px]">
+										<a href="blog.html">Library</a>
+										<a href="blog.html">Management</a>
+										<a href="blog.html">Decoration</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="sigma-blog-itme-wrap sigma-animation">
+							<div class="sigma-post-thum mb-[20px]">
+								<a class="sigma-post-img block w-full overflow-hidden" href="blog-single.html">
+									<img class="w-full duration-500  hover:scale-[1.2]" src="assets/image/blog/blog-02.png" alt="Post One">
+								</a>
+							</div>
+							<div class="sigma-post-details-wrap">
+								<div class="sigma-post-meta flex flex-wrap gap-[10px]">
+									<a href="blog.html" class="sigma-post-author-name text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] relative pr-[15px] before:content-[' '] before:absolute before:top-[7px] before:right-0 before:w-[5px] before:h-[5px] before:rounded-[50%] before:bg-[#6941C6] before:hover:bg-sigma-secondary before:transition-all before:duration-300 before:ease-in-out">Lana Steiner</a>
+									<a href="blog.html" class="sigma-post-date text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] ">18 Jan 2022</a>
+								</div>
+								<div class="sigma-post-title-wrap pt-[15px]">
+									<h2 class="sigma-post-title font-secondary text-2xl text-[24px] font-semibold leading-[32px] mb-0">
+										<a class="flex gap-[30px] justify-between text-heading font-secondary" href="blog-single.html">
+											Building your API Stack
+											<span>
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#1B1818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</span>
+										</a>
+									</h2>
+								</div>
+								<p class="sigma-post-excerpt pt-[15px] text-sigma-gray-600 font-secondary text-[16px] leading-[24px]">
+									The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.
+								</p>
+								<div class="sigma-blog-category pt-[30px]">
+									<div class="sigma-category-list flex flex-wrap gap-[10px]">
+										<a href="blog.html">Software Development</a>
+										<a href="blog.html">Tools</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="sigma-blog-itme-wrap sigma-animation">
+							<div class="sigma-post-thum mb-[20px]">
+								<a class="sigma-post-img block w-full overflow-hidden" href="blog-single.html">
+									<img class="w-full duration-500  hover:scale-[1.2]" src="assets/image/blog/blog-03.png" alt="Post One">
+								</a>
+							</div>
+							<div class="sigma-post-details-wrap">
+								<div class="sigma-post-meta flex flex-wrap gap-[10px]">
+									<a href="blog.html" class="sigma-post-author-name text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] relative pr-[15px] before:content-[' '] before:absolute before:top-[7px] before:right-0 before:w-[5px] before:h-[5px] before:rounded-[50%] before:bg-[#6941C6] before:hover:bg-sigma-secondary before:transition-all before:duration-300 before:ease-in-out">Alec Whitten</a>
+									<a href="blog.html" class="sigma-post-date text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] ">17 Jan 2022</a>
+								</div>
+								<div class="sigma-post-title-wrap pt-[15px]">
+									<h2 class="sigma-post-title font-secondary text-2xl text-[24px] font-semibold leading-[32px] mb-0">
+										<a class="flex gap-[30px] justify-between text-heading font-secondary" href="blog-single.html">
+											Bill Walsh leadership lessons
+											<span>
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#1B1818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</span>
+										</a>
+									</h2>
+								</div>
+								<p class="sigma-post-excerpt pt-[15px] text-sigma-gray-600 font-secondary text-[16px] leading-[24px]">
+									Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+								</p>
+								<div class="sigma-blog-category pt-[30px]">
+									<div class="sigma-category-list flex flex-wrap gap-[10px]">
+										<a href="blog.html">Leadership</a>
+										<a href="blog.html">Management</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="sigma-blog-itme-wrap sigma-animation">
+							<div class="sigma-post-thum mb-[20px]">
+								<a class="sigma-post-img block w-full overflow-hidden" href="blog-single.html">
+									<img class="w-full duration-500  hover:scale-[1.2]" src="assets/image/blog/blog-04.png" alt="Post One">
+								</a>
+							</div>
+							<div class="sigma-post-details-wrap">
+								<div class="sigma-post-meta flex flex-wrap gap-[10px]">
+									<a href="blog.html" class="sigma-post-author-name text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] relative pr-[15px] before:content-[' '] before:absolute before:top-[7px] before:right-0 before:w-[5px] before:h-[5px] before:rounded-[50%] before:bg-[#6941C6] before:hover:bg-sigma-secondary before:transition-all before:duration-300 before:ease-in-out">Momin Khan</a>
+									<a href="blog.html" class="sigma-post-date text-[14px] font-semibold leading-[20px] font-secondary text-[#6941C6] ">22 Jan 2022</a>
+								</div>
+								<div class="sigma-post-title-wrap pt-[15px]">
+									<h2 class="sigma-post-title font-secondary text-2xl text-[24px] font-semibold leading-[32px] mb-0">
+										<a class="flex gap-[30px] justify-between text-heading font-secondary" href="blog-single.html">
+											Design workspace for better
+											<span>
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+													<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#1B1818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</span>
+										</a>
+									</h2>
+								</div>
+								<p class="sigma-post-excerpt pt-[15px] text-sigma-gray-600 font-secondary text-[16px] leading-[24px]">
+									Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+								</p>
+								<div class="sigma-blog-category pt-[30px]">
+									<div class="sigma-category-list flex flex-wrap gap-[10px]">
+										<a href="blog.html">Leadership</a>
+										<a href="blog.html">Management</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-more-post text-center pt-[60px] md:pt-[40px]">
+					<a class="sigma-btn sigma-btn-transparent sigma-btn-icon" href="blog.html">
+						Explore All Articles
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#03071E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div-->
+		<!-- =========================== Blog Area Ends =========================================== -->
+
+		<!-- =========================== Footer Area Start =========================================== -->
+		<div class="sigma-footer-area sigma-section-padding sigma-section-margin pb-[45px] bg-sigma-section-bg-2">
+			<div class="container-md">
+				<div class="sigma-call-to-action-area w-[656px] lg:w-full mx-auto">
+					<h4 class="sigma-cta-heading text-white -tracking-[.58px] text-center leading-[42px] md:leading-[37px] sm:leading-[34px] mb-[15px]">
+						Become an instructor, teach greatest courses that you want to share the world.
+					</h4>
+					<p class="sigma-cta-test text-white text-[16px] leading-[26px] text-center">
+						Teach your best expertise. Get started in few clicks.
+					</p>
+					<div class="sgima-cta-btn-wrap sigma-btn-wrap flex flex-wrap gap-[30px] justify-center items-center pt-[40px]">
+						<a class="sigma-cta-btn font-semibold text-[16px] leading-[28px] bg-sigma-secondary  text-sigma-brand hover:bg-white sigma-btn relative overflow-hidden " href="contact.html">
+							Get Started
+						</a>
+						<a class="sigma-btn sigma-play-btn bg-transparent text-white font-semibold text-[16px] leading-[28px] px-0 flex gap-[15px] items-center no-underline transition-all duration-300 ease-in-out hover:bg-transparent hover:text-sigma-secondary  " href="https://www.youtube.com/watch?v=ENMVBipt8RM">
+							<span class="sigma-play-icon bg-white flex justify-center items-center h-[47px] w-[47px] rounded-[50%] leading-[47px]  border-[1px] border-solid border-sigma-secondary transition-all duration-300 ease-in-out text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+									<path d="M12.9646 7.07236C13.3118 7.26585 13.3118 7.73406 12.9646 7.92754L2.1076 13.978C1.7252 14.1911 1.3 13.9074 1.3 13.5504L1.3 1.4495C1.3 1.09249 1.7252 0.808804 2.1076 1.02191L12.9646 7.07236Z" fill="#0E0062" stroke="black" />
+								</svg>
+							</span>
+							Watch Intro
+						</a>
+					</div>
+				</div>
+				
+				<div class="sigma-footer-bottom py-[60px] mt-[60px] mb-[30px] md:py-[40px] md:mt-[40px] border-t border-b border-solid border-[#7F56D9] border-b-[#eaecf059]">
+					<div class="grid grid-cols-12 gap-[60px] xl:gap-[30px] lg:gap-x-[10px] lg:gap-y-[40px]">
+						<div class="col-span-4 lg:col-span-12">
+							<div class="sigma-footer-item-wrap">
+								<div class="sigma-footer-logo -ml-[10px]">
+									<a href="index.html">
+										<img src="assets/image/logo/logo-white.png" alt="Logo">
+									</a>
+								</div>
+								<p class="sigma-footer-text pt-[45px] lg:pt-[20px] text-white text-[16px] leading-[28px] w-[340px] xl:w-full">
+									Design amazing digital experiences that create more happy in the world. Design amazing digital experiences that create more happy in the world.
+								</p>
+							</div>
+						</div>
+						<div class="col-span-3 lg:col-span-6">
+							<div class="sigma-footer-item-wrap">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Products</h6>
+								<ul class="sigma-footer-lists flex flex-col gap-[12px] list-none pt-[15px]">
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="signaup.html">Registration</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="course-page.html">Courses</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="about.html">Why Choose Us</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="instructor-1.html">Instructor</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="contact.html">Get In Tuch</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-span-3 lg:col-span-6">
+							<div class="sigma-footer-item-wrap">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Resources</h6>
+								<ul class="sigma-footer-lists flex flex-col gap-[12px] list-none pt-[15px]">
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="index.html">Home</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="course-page.html">Courses</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="about.html">About Us</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="blog.html">Blog</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-span-2 lg:col-span-12">
+							<div class="sigma-footer-item-wrap text-right lg:text-left">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Get the app</h6>
+								<div class="sigma-footer-image-wrap flex flex-col gap-[15px] items-end pt-[15px] lg:items-start">
+									<a class="sigma-footer-img" href="https://www.apple.com/app-store/">
+										<img src="assets/image/icon/apple-store-white.png" alt="Apple store">
+									</a>
+									<a class="sigma-footer-img" href="https://play.google.com/store/">
+										<img src="assets/image/icon/google-play-store-white.png" alt="Play store">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-footer-bottom flex flex-wrap justify-between gap-[30px] items-center md:flex-col">
+					<p class="sigma-copyright-text text-white text-[16px] leading-[24px]">© 2024 Sigma Education Center. All rights reserved.</p>
+					<ul class="sigma-footer-social-wrap flex gap-[24px] list-none">
+						<li class="sigma-footer-social-item">
+							<a href="https://x.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M7.55016 21.7502C16.6045 21.7502 21.5583 14.2469 21.5583 7.74211C21.5583 7.53117 21.5536 7.31554 21.5442 7.1046C22.5079 6.40771 23.3395 5.5445 24 4.55554C23.1025 4.95484 22.1496 5.21563 21.1739 5.32898C22.2013 4.71315 22.9705 3.74572 23.3391 2.60601C22.3726 3.1788 21.3156 3.58286 20.2134 3.80085C19.4708 3.01181 18.489 2.48936 17.4197 2.3143C16.3504 2.13923 15.2532 2.32129 14.2977 2.83234C13.3423 3.34339 12.5818 4.15495 12.1338 5.14156C11.6859 6.12816 11.5754 7.23486 11.8195 8.29054C9.86249 8.19233 7.94794 7.68395 6.19998 6.79834C4.45203 5.91274 2.90969 4.66968 1.67297 3.14976C1.0444 4.23349 0.852057 5.51589 1.13503 6.73634C1.418 7.95678 2.15506 9.02369 3.19641 9.72023C2.41463 9.69541 1.64998 9.48492 0.965625 9.10617V9.1671C0.964925 10.3044 1.3581 11.4068 2.07831 12.287C2.79852 13.1672 3.80132 13.7708 4.91625 13.9952C4.19206 14.1934 3.43198 14.2222 2.69484 14.0796C3.00945 15.0577 3.62157 15.9131 4.44577 16.5266C5.26997 17.14 6.26512 17.4808 7.29234 17.5015C5.54842 18.8714 3.39417 19.6144 1.17656 19.6109C0.783287 19.6103 0.390399 19.5861 0 19.5387C2.25286 20.984 4.87353 21.7516 7.55016 21.7502Z" fill="white"/>
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://www.linkedin.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z" fill="white"/>
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://www.facebook.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g clip-path="url(#clip0_868_37072)">
+									  <path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z" fill="white"/>
+									</g>
+									<defs>
+									  <clipPath id="clip0_868_37072">
+										<rect width="24" height="24" fill="white"/>
+									  </clipPath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://github.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g clip-path="url(#clip0_868_37073)">
+									  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.3724 0 0 5.3808 0 12.0204C0 17.3304 3.438 21.8364 8.2068 23.4252C8.8068 23.5356 9.0252 23.1648 9.0252 22.8456C9.0252 22.5612 9.0156 21.804 9.0096 20.802C5.6712 21.528 4.9668 19.1904 4.9668 19.1904C4.422 17.8008 3.6348 17.4312 3.6348 17.4312C2.5452 16.6872 3.7176 16.7016 3.7176 16.7016C4.9212 16.7856 5.5548 17.94 5.5548 17.94C6.6252 19.776 8.364 19.2456 9.0468 18.9384C9.1572 18.162 9.4668 17.6328 9.81 17.3328C7.146 17.0292 4.344 15.9972 4.344 11.3916C4.344 10.08 4.812 9.006 5.5788 8.166C5.4552 7.8624 5.0436 6.6396 5.6964 4.986C5.6964 4.986 6.7044 4.662 8.9964 6.2172C9.97532 5.95022 10.9853 5.81423 12 5.8128C13.02 5.8176 14.046 5.9508 15.0048 6.2172C17.2956 4.662 18.3012 4.9848 18.3012 4.9848C18.9564 6.6396 18.5436 7.8624 18.4212 8.166C19.1892 9.006 19.6548 10.08 19.6548 11.3916C19.6548 16.0092 16.848 17.0256 14.1756 17.3232C14.6064 17.694 14.9892 18.4272 14.9892 19.5492C14.9892 21.1548 14.9748 22.452 14.9748 22.8456C14.9748 23.1672 15.1908 23.5416 15.8004 23.424C18.19 22.6225 20.2672 21.0904 21.7386 19.0441C23.2099 16.9977 24.001 14.5408 24 12.0204C24 5.3808 18.6264 0 12 0Z" fill="white"/>
+									</g>
+									<defs>
+									  <clipPath id="clip0_868_37073">
+										<rect width="24" height="24" fill="white"/>
+									  </clipPath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- =========================== Footer Area Ends =========================================== -->
+
+		<!-- scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/vendors/magnifi-popup/jquery.magnific-popup.min.js"></script>
+		<script src="assets/vendors/counter-up/purecounter.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/vendors/wow-js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,20 @@
+@layer components {
+    /**----------------------------------------
+        Spacing CSS
+----------------------------------------*/
+    .sigma-section-padding {
+        @apply pt-[110px] lg:pt-[90px] md:pt-[70px];
+    }
+
+    .sigma-section-margin {
+        @apply mt-[110px] lg:mt-[90px] md:mt-[70px];
+    }
+
+    .sigma-section-specing-has-bg {
+        @apply pt-[110px] lg:pt-[90px] md:pt-[70px] pb-[110px] lg:pb-[90px] md:pb-[70px] mt-[110px] lg:mt-[90px] md:mt-[70px];
+    }
+
+    .sigma-section-specing-has-bg-no-margin {
+        @apply pt-[110px] lg:pt-[90px] md:pt-[70px] pb-[110px] lg:pb-[90px] md:pb-[70px];
+    }
+}

@@ -1,0 +1,8 @@
+.sigma-footer-area-two .sigma-play-btn svg path{
+    stroke: var(--sigma-brand);
+    fill: transparent;
+}
+
+.sigma-footer-area-two .sigma-play-btn:hover svg path{
+    fill: var(--sigma-brand);
+}

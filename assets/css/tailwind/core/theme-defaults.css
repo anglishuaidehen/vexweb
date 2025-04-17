@@ -1,0 +1,55 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Sigma - LMS HTML5 Template
+    Author: themexplosion
+    Description: Sigma - LMS HTML5 Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+
+/************ TABLE OF CONTENTS ***************
+
+	01. Default CSS
+	02. Spacing CSS
+	03. Button CSS
+	04. Base CSS 
+	05. Typography CSS 
+	06. Animation CSS 
+	07. Components CSS 
+	08. Preloader CSS 
+	09. Pagination CSS 
+	10. Form CSS 
+	11. Category CSS 
+	12. Header CSS 
+	13. Hero CSS 
+	14. Section CSS 
+	15. Footer CSS 
+	16. Blog Page CSS 
+	17. Course Page CSS 
+	18. Other Page CSS 
+	19. Shop Page CSS 
+	20. Responsive CSS 
+
+**********************************************/
+/**----------------------------------------
+    Default CSS
+----------------------------------------*/
+
+
+ul,
+ol,
+menu{
+    list-style: inherit;
+}
+
+svg,
+svg path{
+    @apply transition-all duration-300 ease-in-out;
+}
+
+a:focus{
+    outline: none;
+    outline-offset: 0;
+}
+

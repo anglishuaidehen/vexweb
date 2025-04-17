@@ -1,0 +1,104 @@
+@media screen and (max-width: 1625px) {
+    .sigma-banner-area .sigma-banner-right-card {
+        @apply -right-[13px] -top-[108px]
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sigma-menu li.menu-item-has-children i{
+        @apply hidden
+    }
+ 
+    .sigma-mobile-menu  .dropdown-btn {
+        @apply block absolute text-center right-[20px] top-[11px] w-[32px] h-[32px] text-[16px] leading-[32px] text-heading bg-white cursor-pointer rounded-[2px] transition-all duration-500 ease-in-out z-[5]
+    }
+
+    .sigma-mobile-menu  .dropdown-btn .plus-line {
+        @apply absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] w-[12px] h-[2px] bg-heading transition-all duration-500 ease-in-out
+    }
+
+    .sigma-mobile-menu  .dropdown-btn .plus-line::after {
+        @apply content-[""] absolute left-[50%] top-[50%] w-[2px] h-[12px] bg-heading rounded-[10px]  -translate-x-[50%] -translate-y-[50%] transition-all duration-500 ease-in-out
+    }
+
+    .sigma-mobile-menu  .dropdown-btn.open .plus-line::after{
+        @apply hidden
+    }
+
+    .sigma-banner-image-bg {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sigma-banner-area .sigma-banner-right-card {
+        @apply right-0 -top-[108px]
+    }
+
+    .sigma-banner-image-bg {
+        width: calc(100% + 28px);
+    }
+
+    .sigma-subscribe-form .sigma-subscribe-form-input{
+        width: calc(100% - 143px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-md{
+        @apply px-[15px]
+    }
+   
+    .ctn-preloader .animation-preloader .spinner {
+        @apply h-[8em] w-[8em];
+    }
+
+    .sigma-course-category-itmes .sigma-category-icon img{
+        @apply w-[50px] h-[50px]
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .sigma-logo {
+        @apply  -mt-[20px]
+    }
+    .sigma-mobile-menu-wrap .sigma-logo{
+        @apply mt-[20px]
+    }
+    .sigma-logo img{
+        @apply w-[95px]
+    }
+
+    .sigma-header-right .sigma-header-cart,
+    .sigma-header-right .sigma-user-icon{
+        @apply hidden
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .ctn-preloader .animation-preloader .spinner {
+        @apply h-[7em] w-[7em];
+    }
+
+    .ctn-preloader .animation-preloader .txt-loading .letters-loading {
+        @apply text-[40px] tracking-[10px];
+    }
+
+    .sigma-banner-image-bg {
+        width: calc(100% + 28px);
+    }
+}
+
+@media screen and (max-width: 460px){
+    .sigma-subscribe-form .sigma-subscribe-form-input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sigma-banner-image-bg {
+        @apply w-full left-0
+    }
+}

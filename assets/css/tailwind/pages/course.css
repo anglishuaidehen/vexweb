@@ -1,0 +1,114 @@
+
+
+.sigma-csw-list-item {
+    @apply text-sigma-title-70 text-[16px] relative cursor-pointer
+}
+
+.sigma-filter-widget label{
+    @apply cursor-pointer
+}
+
+.sigma-filter-widget ul li:not(:last-child) {
+    @apply mb-[10px]
+}
+
+.sigma-form-check-input {
+    background-size: 12px;
+
+    @apply bg-white inline-block bg-no-repeat appearance-none align-top cursor-pointer outline-none bg-center transition-all duration-300 ease-in-out;
+}
+
+.sigma-filter-widget input[type=checkbox] {
+    @apply h-[20px] w-[20px] rounded-[4px] border-[1px] border-solid border-[#898888];
+}
+
+.sigma-form-check-input[type=checkbox]:checked {
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.922 5.7a.627.627 0 01-.127-.194.72.72 0 010-.5.6.6 0 01.127-.195l.905-.867a.562.562 0 01.425-.195.592.592 0 01.25.05.665.665 0 01.207.145l2.73 2.734L11.295.82a.658.658 0 01.202-.145.613.613 0 01.484.002.568.568 0 01.191.143l.905.88a.6.6 0 01.127.195.72.72 0 010 .5.628.628 0 01-.127.194l-7.2 7.163a.575.575 0 01-.195.147.655.655 0 01-.5 0 .575.575 0 01-.195-.147L.922 5.7z' fill='%23fff'/%3E%3C/svg%3E");
+    background-position: 50% 50%;
+
+    @apply border-sigma-brand bg-sigma-brand bg-no-repeat
+}
+
+.sigma-course-right-sidebar .sigma-course-title{
+    @apply xx:text-[18px]
+}
+
+.sigma-mobile-cat-wrap .sigma-mobile-filter-wrap {
+    max-height: calc(100vh - 8rem);
+}
+
+.sigma-course-filter-visible .sigma-mobile-cat-wrap {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.sigma-cd-meta .sigma-category-list a{
+    @apply rounded-[16px]
+}
+
+.sigma-cd-action a:hover svg path{
+    fill: var(--sigma-secondary);
+}
+
+.sigma-tab-content{
+    @apply hidden
+}
+.sigma-tab-content.active{
+    @apply block 
+}
+
+.sigma-tab-items .sigma-tab-item{
+    @apply after:block after:-bottom-[1px] after:w-0 after:h-[2px] after:bg-sigma-secondary after:absolute after:left-0 after:hover:w-full after:transition-all after:duration-300 after:ease-in-out
+}
+
+.sigma-tab-items .sigma-tab-item.active{
+    @apply text-sigma-secondary after:w-full
+}
+
+.sigma-cd-content-text.sigma-content-collapsed:before {
+    @apply content-[''] absolute bottom-0 left-0 w-full h-[62px] bg-gradient-to-b from-[rgba(255,255,255,0.0001)_1.31%] via-[rgba(255,255,255,0.721372)_15.41%] to-white z-[5]
+}
+
+.sigma-content-collapsed{
+    @apply h-[200px] overflow-hidden
+}
+
+.sigma-cd-accordion-item .sigma-cda-title::after {
+    content: '';
+    background: url('data:image/svg+xml;utf8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 width%3D%2214%22 height%3D%2214%22 viewBox%3D%220 0 14 14%22 fill%3D%22none%22%3E%3Cpath d%3D%22M14 1.4V0H0V1.4H6.3V11.319L2.45 7.469L1.456 8.456L7 14L12.544 8.456L11.55 7.469L7.7 11.319V1.4H14Z%22 fill%3D%22%2303071E%22 fill-opacity%3D%220.6%22/%3E%3C/svg%3E') no-repeat center;
+
+    @apply absolute inline-block bg-contain w-[16px] h-[16px] top-1/2 right-[24px] -translate-y-1/2 
+}
+
+.sigma-cd-accordion-item.active{
+    @apply  border-[#EDEDED] rounded-[4px]
+}
+
+.sigma-cd-accordion-item.active .sigma-cda-content {
+    @apply block
+}
+
+.sigma-cd-accordion-item .sigma-cda-content{
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.sigma-cd-accordion-item.active .sigma-cda-title{
+    @apply rounded-b-none after:rotate-180
+}
+
+.sigma-review-summary-rating:not(:last-child){
+    @apply mb-[10px]
+}
+
+.sigma-instructor-course-wrap span{
+    @apply before:content-['|']  before:absolute before:-right-[12px] md:before:hidden
+}
+
+.sigma-instructor-course-wrap span:last-child{
+    @apply before:hidden
+}
+
+.sigma-reviews:not(:last-child){
+    @apply border-b-0
+}

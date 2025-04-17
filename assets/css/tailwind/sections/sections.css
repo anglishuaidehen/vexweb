@@ -1,0 +1,87 @@
+.sigma-bt-top.open {
+    @apply opacity-100 visible bottom-[30px]
+}
+
+.sigma-counter-item .sigma-counter-number span {
+    @apply text-[37px] font-bold leading-[47px] text-sigma-title -tracking-[.74px]
+}
+
+
+/* Testimonial */
+
+.sigma-testimonial-items .swiper {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+    @apply lg:w-full lg:px-0
+}
+
+.sigma-testimonial-slider-nav {
+    @apply bg-white w-[56px] h-[56px] rounded-[50%] border-[1px] border-solid border-sigma-border-2 shadow-[0_16px_80px_0_rgba(0,0,0,0.1)]  hover:bg-sigma-accent transition-all duration-300 ease-in-out opacity-0 invisible lg:hidden
+}
+
+.sigma-testimonial-slider-nav svg {
+    @apply w-[24px] h-[24px]
+}
+
+.sigma-testimonial-slider-nav:hover svg path {
+    stroke: var(--sigma-white);
+    stroke-opacity: 1;
+}
+
+.sigma-testimonial-items:hover .sigma-testimonial-slider-nav {
+    @apply opacity-100 visible
+}
+
+/* Blog */
+
+.sigma-post-title:hover svg path {
+    stroke: var(--sigma-secondary);
+}
+
+/* Footer */
+.sigma-footer-social-wrap a:hover svg path {
+    fill: var(--sigma-secondary);
+}
+
+
+/* .sigma-course-cat-menu-wrap .swiper-slide{
+    width: max-content !important;
+} */
+
+
+.sigama-course-filter {
+    @apply hidden
+}
+
+/* isotope  items show */
+.sigma-course-area-two .show {
+    @apply block
+}
+
+/* FAQ Section. */
+.sigma-accordion-item .sigma-icon-expanded,
+.sigma-accordion-item.item-active .sigma-icon-collapsed {
+    @apply hidden
+}
+
+.sigma-accordion-item .sigma-icon-collapsed,
+.sigma-accordion-item.item-active .sigma-icon-expanded {
+    @apply block
+}
+
+.sigma-accordion-item .sigma-accordion-content-wrap {
+    transition: max-height 0.3s ease;
+    @apply pr-[20px]
+}
+
+.sigma-accordion-item.item-active{
+    @apply bg-sigma-section-bg pb-[30px] pt-[30px]
+}
+
+.sigma-accordion-item:not(:first-child){
+    @apply mt-[15px]
+}
+
+.sigma-accordion-title-wrap .sigma-accordion-icon svg{
+    @apply sm:w-[18px] sm:h-[18px] leading-[32px] sm:leading-[28px]
+}

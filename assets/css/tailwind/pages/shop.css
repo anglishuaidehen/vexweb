@@ -1,0 +1,62 @@
+.sigma-shop-item:hover .sigma-shop-thumb img{
+    @apply scale-[1.03];
+}
+
+.sigma-shop-item:hover .sigma-shop-list{
+    @apply right-[20px] visible opacity-100
+}
+
+.sigma-product-gallary-thumb .swiper-slide-thumb-active .sigma-thumb-item {
+    @apply border-sigma-brand
+}
+
+.sigma-details-list li i{
+    @apply w-[20px]
+}
+
+.sigma-product-table tr th{
+    @apply text-paragraph text-[16px] font-medium uppercase py-[25px]
+}
+
+.sigma-product-table tbody tr td{
+    @apply text-heading font-medium py-[30px]
+}
+.sigma-product-table tbody tr:not(:last-child) td{
+    @apply border-b-[1px] border-[#EDEDED]
+
+}
+
+.sigma-checkout-item{
+    @apply flex items-start gap-[20px] px-[35px] flex-wrap md:items-center justify-between
+}
+
+.sigma-checkout-item:not(:last-child){
+    @apply border-b-[1px] border-sigma-border-light mb-[30px] pb-[30px]
+}
+
+.sigma-checkout-item span{
+    @apply text-paragraph text-[16px] font-medium
+}
+.sigma-checkout-item p{
+    @apply font-medium py-[20px]
+}
+
+.sigma-shipping-right .sigma-shipping-option input{
+    @apply accent-sigma-brand
+}
+
+.sigma-shipping-right .sigma-shipping-option label{
+    @apply text-[16px] font-normal ml-[10px] cursor-pointer text-heading
+}
+
+.sigma-shipping-right span{
+    @apply text-heading font-medium
+}
+
+.sigma-checkout-review-order-table tbody tr.sigma-cart-item:not(:last-child) td{
+    @apply border-b-[1px] border-sigma-border-light py-[10px]
+}
+
+.sigma-checkout-review-order-table tbody tr.sigma-cart-item td{
+    @apply py-[10px]
+}

@@ -1,0 +1,24 @@
+@layer components {
+    /**----------------------------------------
+    Button CSS
+----------------------------------------*/
+    .sigma-btn{
+        @apply bg-sigma-brand text-white font-primary overflow-hidden text-[18px] px-[43px] py-[16px] font-semibold  leading-[28px] rounded-[8px] duration-300 transition-all ease-in-out no-underline tracking-[0.36px] text-center inline-block hover:bg-sigma-secondary hover:text-sigma-brand;
+    }
+    
+    .sigma-btn-transparent {
+        @apply bg-transparent border-[1.5px] border-sigma-brand rounded-[4px] text-sigma-title-90 font-bold  relative py-[20px] px-[32px] hover:bg-sigma-brand hover:text-white hover:border-sigma-brand sm:px-[15px]
+    }
+    
+    .sigma-btn-icon:hover svg path {
+        stroke: var(--sigma-white);
+    }
+    
+    .sigma-btn-icon i {
+        @apply text-[22px] inline-block 
+    }
+    
+    .sigma-btn-icon svg {
+        @apply w-[22px] h-[22px] inline-block 
+    }
+}

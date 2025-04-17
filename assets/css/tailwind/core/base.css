@@ -1,0 +1,63 @@
+* {
+    @apply box-border
+}
+
+body {
+    @apply overflow-x-hidden
+}
+
+.container,
+.container-sm {
+    @apply mx-auto
+    max-w-[1344px] 
+    xx:max-w-[1140px] 
+    xl:max-w-[960px] 
+    lg:max-w-[720px] 
+    md:max-w-[540px]
+    sm:max-w-[100%]
+    sm:px-15
+}
+
+.container-md {
+    @apply mx-auto
+    max-w-[1344px] 
+    xx:max-w-[1140px] 
+    xl:max-w-[960px] 
+    lg:max-w-[720px] 
+    md:max-w-[100%]
+}
+
+.container-lg {
+    @apply mx-auto
+    max-w-[1344px] 
+    xx:max-w-[1140px] 
+    xl:max-w-[960px] 
+    lg:max-w-[100%]
+    lg:px-[15px]
+}
+
+.container-xl {
+    @apply mx-auto
+    max-w-[1344px] 
+    xx:max-w-[1140px] 
+    xl:max-w-[100%]
+}
+
+.container-xx {
+    @apply mx-auto
+    max-w-[1344px] 
+    xx:max-w-[100%]
+}
+
+.container-fluid {
+    @apply mx-auto
+    max-w-[1648px] 
+    xxx:max-w-[100%]
+    xxx:px-15
+}
+
+@layer base {
+    ::before, ::after {
+    --tw-content: ' ';
+    }
+}

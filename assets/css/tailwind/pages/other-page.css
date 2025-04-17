@@ -1,0 +1,68 @@
+/* Contact Page */
+.sigma-select .list {
+  @apply w-full rounded-none;
+}
+
+.sigma-select::after {
+  @apply right-[20px];
+}
+/* .sigma-select .option:hover{
+    @apply bg-sigma-brand text-white 
+} */
+/* 
+.sigma-select .option.selected.focus{
+    @apply bg-sigma-brand text-white 
+}
+
+.sigma-select .list:hover .option{
+    @apply text-heading
+}
+.sigma-select .list:hover .option.selected{
+    @apply  text-white 
+} */
+
+.sigma-select .option:hover,
+.sigma-select .option.focus,
+.sigma-select .option.selected.focus {
+  @apply bg-sigma-brand text-white;
+}
+
+.sigma-select .list:hover .option:not(:hover){
+    @apply text-heading;
+}
+.sigma-addres-wrap .sigma-phone{
+    @apply break-all
+}
+
+.sigma-contact-form .sigma-input-label{
+    @apply lg:text-[16px]
+}
+
+/* About Page */
+.sigma-services-icon svg{
+    @apply h-[60px] w-[60px]
+}
+
+.sigma-services-icon svg path{
+    @apply transition-all duration-300 ease-in-out
+}
+
+.sigma-services-icon.sigma-icon-one svg path{
+    @apply fill-sigma-brand
+}
+
+.sigma-services-icon.sigma-icon-two svg path{
+    @apply stroke-sigma-brand
+}
+
+.sigma-services-item:hover .sigma-services-icon{
+    @apply bg-sigma-brand
+}
+
+.sigma-services-item:hover .sigma-services-icon.sigma-icon-one svg path{
+    @apply fill-white
+}
+
+.sigma-services-item:hover .sigma-services-icon.sigma-icon-two svg path{
+    @apply stroke-white
+}

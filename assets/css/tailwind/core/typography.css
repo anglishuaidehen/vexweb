@@ -1,0 +1,45 @@
+body {
+    @apply text-paragraph text-[16px] leading-[1.7] font-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-primary font-bold leading-[1.4em] text-heading transition-all duration-300 ease-in-out
+}
+
+
+h1 {
+    @apply text-[60px] md:text-[50px] md:leading-[60px] sm:text-[40px] sm:leading-[50px]
+}
+
+
+h2 {
+    @apply text-[47px] md:text-[40px] md:leading-[50px] sm:text-[32px] sm:leading-[42px]
+}
+
+h3 {
+    @apply text-[37px] md:text-[34px] md:leading-[44px] sm:text-[28px] sm:leading-[38px]
+}
+
+h4 {
+    @apply text-[29px] md:text-[27px] md:leading-[37px] sm:text-[24px] sm:leading-[34px]
+}
+
+h5 {
+    @apply text-[22px] md:text-[20px] md:leading-[30px]
+}
+
+h6 {
+    @apply text-[18px]
+}
+
+
+/* ================ Links ================ */
+a {
+    @apply text-sigma-brand no-underline  hover:text-sigma-secondary focus:outline-none;
+    transition: all 0.3s ease-in-out;
+}

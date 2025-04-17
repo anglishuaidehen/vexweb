@@ -1,0 +1,222 @@
+@media screen and (max-width: 1625px){
+    .sigma-hero-area .banner-right-card{
+        right: -13px;
+        top: -108px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header-area .header-right {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .header-area .header-right {
+        gap: 15px;
+    }
+
+    .header-middle {
+        gap: 30px;
+    }
+
+    .header-middle {
+        padding-left: 0;
+    }
+
+    .header-area .category-menu {
+        padding-right: 15px;
+    }
+
+    .menu-wrapper .main-menu {
+        gap: 30px;
+    }
+
+    .sigma-user .user-item {
+        padding: 10px 7px;
+    }
+
+    .sigma-hero-area .hero-text{
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .sigma-hero-area .banner-left-card{
+        left: -22px;
+        bottom: 17px;
+    }
+
+    .sigma-hero-area .banner-right-card{
+        display: none;
+    }
+
+    .category-area .category-item {
+        flex: 0 0 calc(25% - 33.4px);
+    }
+
+    .sigma-banner-image-bg {
+        width: calc(100%);
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+
+    /* Space */
+    .pt-120,
+    .pt-110{
+        padding-top: 70px;
+    }
+
+    .pb-110,
+    .pb-120{
+        padding-bottom: 70px;
+    }
+
+    .sigma-hero-area .heroSlider{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sigma-menu-wrap .mobile-nav-toggler {
+        display: block;
+    }
+
+    .header-area .sigma-nav {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .sigma-hero-area .row{
+        flex-direction: column-reverse;
+    }
+
+    .sigma-hero-area .sigma-banner-image{
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+
+    .sigma-hero-area .banner-left-card{
+        left: 5rem;
+    }
+
+    .sigma-hero-area .hero-title,
+    .sigma-hero-area .hero-text{
+     text-align: center;   
+    }
+
+    .sigma-hero-area .hero-text{
+        padding-top: 25px;
+    }
+
+    .sigma-hero-area .hero-btn-wrap{
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    .category-area .category-item {
+        flex: 0 0 calc(33.33% - 33.4px);   
+    }
+}
+
+@media screen and (max-width: 767.98px){
+   
+    .sigma-hero-area .sigma-slider-nav{
+        display: none;
+    }
+
+    .counter-area .counter-wrap .counter-item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .category-area .category-item {
+        flex: 0 0 calc(50% - 33.4px);   
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    /* Space */
+    .pt-120,
+    .pt-110{
+        padding-top: 50px;
+    }
+
+    .pb-110,
+    .pb-120{
+        padding-bottom: 50px;
+    }
+
+    .section-subtitle{
+        width: 100%;
+    }
+
+    .header-area{
+        padding-top: 0;
+    }
+    .sigma-menu-wrap .sigma-logo{
+        order: 1;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .sigma-menu-wrap .sigma-logo img{
+        margin-top: 0;
+    }
+
+    .sigma-menu-wrap .mobile-nav-toggler{
+        order: 2;
+    }
+
+    .sigma-menu-wrap .header-right{
+        order: 3;
+    }
+
+    .header-area .header-top-search{
+        width: 310px;
+        right: -198px;
+    }
+
+    .sigma-hero-area .banner-left-card{
+        display: none !important;
+    }
+
+    .sigma-hero-area .hero-text{
+        font-size: 16px;
+    }
+
+    .sigma-hero-area .hero-btn-wrap{
+        text-align: center;
+    }
+
+    .sigma-hero-area .hero-btn-wrap a{
+        display: inline-block;
+    }
+
+    .counter-area .counter-wrap .counter-item{
+        width: 100%;
+    }
+
+    .counter-area .counter-wrap .counter-item:last-child{
+        margin-bottom: 0px;
+    }
+
+    .counter-area .counter-number span{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .category-area .category-list {
+        gap: 30px;   
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .category-area .category-item {
+        flex: 0 0 calc(100% - 33.4px);   
+    }
+}

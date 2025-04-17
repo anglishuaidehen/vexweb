@@ -1,0 +1,29 @@
+.sigma-social-share-icons-wrap svg {
+    @apply w-[20px]
+}
+
+.sigma-copy-btn .sigma-tooltip::after{
+    @apply content-[''] absolute -bottom-[15px] left-[50%] border-[10px] border-solid border-transparent border-t-[10px] border-t-[#333] -translate-x-[50%] xl:left-0 xl:translate-x-0 md:hidden
+}
+
+.sigma-copy-btn .sigma-tooltip.success {
+    @apply bg-[#16a34a]
+}
+
+.sigma-copy-btn .sigma-tooltip.success:after {
+    @apply border-t-[#16a34a]
+}
+
+.sigma-copy-btn:hover .sigma-tooltip {
+    @apply opacity-100
+}
+
+.sigma-ms-wrap {
+    box-shadow: 2px 2px 20px 0px rgb(188 188 189 / 40%);
+  
+    @apply hidden top-[40px] py-[20px] rounded-bl-[10px] rounded-br-[10px] bg-white w-[40px] shadow-[2px_2px_20px_0_rgba(188,188,189,0.4)]
+}
+
+.sigma-sp-content .sigma-sp-content-text{
+    @apply pb-[25px] text-[16px] leading-[26px] text-paragraph
+}

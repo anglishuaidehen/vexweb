@@ -1,0 +1,111 @@
+/* Background */
+[sigma-theme=dark] body,
+[sigma-theme=dark] .header-area,
+[sigma-theme=dark] .sigma-hero-area,
+[sigma-theme=dark] .sigma-mobile-menu-box{
+    background-color: var(--sigma-dark-dark);
+}
+
+[sigma-theme=dark] .sigma-hero-area .sigma-btn::before,
+[sigma-theme=dark] .sigma-mobile-menu .category-menu,
+[sigma-theme=dark] .category-area .category-item::before{
+    background-color: var(--sigma-border-1);
+}
+
+[sigma-theme=dark] .category-menu .category-items,
+[sigma-theme=dark] .main-menu .sub-menu,
+[sigma-theme=dark] .sigma-hero-area .sigma-btn,
+[sigma-theme=dark] .category-menu .category-items:before,
+[sigma-theme=dark] .main-menu .sub-menu::before,
+[sigma-theme=dark] .header-top-search form input,
+[sigma-theme=dark] .sigma-hero-area .banner-left-card,
+[sigma-theme=dark] .sigma-hero-area .banner-right-card,
+[sigma-theme=dark] .sigma-mobile-menu .navigation li.menu-item-has-children .dropdown-btn,
+[sigma-theme=dark] .sigma-hero-area .sigma-slider-nav,
+[sigma-theme=dark] .category-area .category-item,
+[sigma-theme=dark]  .sigma-btn-transparent,
+[sigma-theme=dark] .scroll-to-target{
+    background-color: var(--sigma-dark-color-1);
+}
+
+[sigma-theme=dark] .screen-mode-area .switch-button{
+    background: var(--sigma-secondary);
+}
+
+[sigma-theme=dark] .sigma-mobile-menu .navigation li.menu-item-has-children .dropdown-btn .plus-line,
+[sigma-theme=dark] .sigma-mobile-menu .navigation li.menu-item-has-children .dropdown-btn .plus-line::after{
+    background-color: var(--sigma-white);
+}
+
+/* Text Color */
+[sigma-theme=dark] .category-menu .category-items li,
+[sigma-theme=dark] .main-menu .sub-menu li a,
+[sigma-theme=dark] .header-top-search form input::placeholder,
+[sigma-theme=dark] .header-top-search form::before,
+[sigma-theme=dark] .sigma-hero-area .sigma-btn,
+[sigma-theme=dark] .sigma-hero-area .banner-left-card .card-title,
+[sigma-theme=dark] .sigma-hero-area .banner-left-card .card-progress-title,
+[sigma-theme=dark] .sigma-hero-area .banner-right-card .card-subtitle,
+[sigma-theme=dark] .sigma-hero-area .banner-right-card .card-timing,
+[sigma-theme=dark] .sigma-hero-area .banner-right-card .card-text,
+[sigma-theme=dark] .sigma-mobile-menu .category-menu .category-title,
+[sigma-theme=dark] .sigma-hero-area .sigma-slider-nav::after,
+[sigma-theme=dark] .counter-area .counter-titler,
+[sigma-theme=dark] .counter-area .counter-number span,
+[sigma-theme=dark] .section-title,
+[sigma-theme=dark] .section-subtitle,
+[sigma-theme=dark] .category-area .category-item .category-title,
+[sigma-theme=dark]  .sigma-btn-transparent{
+    color: var(--sigma-white);
+}
+
+[sigma-theme=dark]  .category-menu .category-items li:hover,
+[sigma-theme=dark]  .main-menu .sub-menu li a:hover,
+[sigma-theme=dark] .sigma-hero-area .banner-right-card .card-text span{
+    color: var(--sigma-secondary);
+}
+
+/* Border Color */
+[sigma-theme=dark] .sigma-hero-area .banner-left-card,
+[sigma-theme=dark] .sigma-hero-area .banner-right-card,
+[sigma-theme=dark] .sigma-hero-area .sigma-slider-nav,
+[sigma-theme=dark]  .sigma-btn-transparent{
+    border-color: var(--sigma-dark-border-1);
+}
+
+[sigma-theme=dark] .header-area .sigma-menu-wrap{
+    border-bottom: 1px solid var(--sigma-dark-border-1);
+}
+
+[sigma-theme=dark] .category-menu .category-items li,
+[sigma-theme=dark] .main-menu .sub-menu li {
+    border-bottom-color: var(--sigma-dark-border-1);
+}
+
+
+[sigma-theme=dark] .category-menu .category-items,
+[sigma-theme=dark] .main-menu .sub-menu{
+    box-shadow: none;
+}
+
+[sigma-theme=dark] .screen-mode-area .switch-button svg path{
+    fill: var(--sigma-brand);
+}
+
+[sigma-theme=dark] .screen-mode-area .switch-button .switch-day{
+    transform: translateX(-150%);
+}
+
+[sigma-theme=dark] .screen-mode-area .switch-button .switch-night{
+    transform: translateX(-56%);
+}
+
+/* Svg Color */
+[sigma-theme=dark] .sigma-hero-area .banner-right-card .card-text svg path{
+    stroke: var(--sigma-secondary);
+}
+
+[sigma-theme=dark] .sigma-mobile-menu .category-menu svg path,
+[sigma-theme=dark]  .sigma-btn-transparent svg path{
+    stroke: var(--sigma-white);
+}

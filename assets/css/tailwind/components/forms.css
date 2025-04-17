@@ -1,0 +1,3 @@
+.sigma-page-header-form .sigma-input:focus-visible{
+    @apply border-[3px] border-solid border-sigma-secondary
+}

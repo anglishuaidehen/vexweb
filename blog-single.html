@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sigma LMS HTML Template</title>
+
+		<!-- Fav Icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+
+		<!-- Fonts -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css">
+		<link rel="stylesheet" href="assets/vendors/magnifi-popup/magnific-popup.css">
+		<link rel="stylesheet" href="assets/vendors/animate-css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/root.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+
+	<body class="relative">
+		<!-- =========================== Preloader Starts =========================================== -->
+
+		<div id="preloader">
+			<div class="ctn-preloader" id="ctn-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+						<span class="letters-loading" data-text-preloader="S"> S </span>
+						<span class="letters-loading" data-text-preloader="I"> I </span>
+						<span class="letters-loading" data-text-preloader="G"> G </span>
+						<span class="letters-loading" data-text-preloader="M"> M </span>
+						<span class="letters-loading" data-text-preloader="A"> A </span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Preloader Ends =========================================== -->
+
+		<!-- =========================== Back To Top Starts =========================================== -->
+		<div class="sigma-bt-top inline-block  rounded-[4px] fixed -bottom-[10%] right-[30px] transition-all duration-700 ease-in-out opacity-0 invisible z-[100] border-none cursor-pointer">
+			<button class="scroll__top scroll-to-target inline-block w-[50px] h-[50px] leading-[50px] bg-sigma-border-light text-heading  text-[20px] text-center transition-all duration-300 ease-in-out  hover:bg-sigma-accent hover:text-white" data-target="html">
+				<i class="fas fa-angle-up text-[25px] leading-[25px]"></i>
+			</button>
+		</div>
+
+		<!-- =========================== Back To Top Ends =========================================== -->
+
+		<!-- =========================== Header Area Start =========================================== -->
+
+		<header class="sigma-header-area sigma-header-two sigma-header-light sigma-sticky-header bg-white">
+			<div class="container-md">
+				<div class="sigma-header-wrap flex justify-between items-center py-[20px]">
+					<div class="sigma-header-left flex gap-[65px] xx:gap-[40px] items-center xl:flex-row-reverse">
+						<div class="sigma-logo -mt-[25px] xl:hidden">
+							<a href="index.html"><img class="-ml-[10px]" src="assets/image/logo/logo-dark.svg" alt="Logo"></a>
+						</div>
+						<div class="sigma-header-category mr-[20px] transition-all duration-300 ease-in-out relative xl:hidden">
+							<nav id="sigma-category-menu" class="sigma-category-menu flex items-center gap-[4px] pr-25 relative">
+								<div class="sigma-category-title-wrap flex items-center gap-[4px] ">
+									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+										<path d="M12.25 9.33332V4.66665C12.2498 4.46206 12.1958 4.26112 12.0934 4.084C11.991 3.90687 11.8438 3.75978 11.6667 3.65748L7.58333 1.32415C7.40598 1.22175 7.20479 1.16785 7 1.16785C6.79521 1.16785 6.59402 1.22175 6.41667 1.32415L2.33333 3.65748C2.15615 3.75978 2.00899 3.90687 1.9066 4.084C1.80422 4.26112 1.75021 4.46206 1.75 4.66665V9.33332C1.75021 9.53791 1.80422 9.73884 1.9066 9.91597C2.00899 10.0931 2.15615 10.2402 2.33333 10.3425L6.41667 12.6758C6.59402 12.7782 6.79521 12.8321 7 12.8321C7.20479 12.8321 7.40598 12.7782 7.58333 12.6758L11.6667 10.3425C11.8438 10.2402 11.991 10.0931 12.0934 9.91597C12.1958 9.73884 12.2498 9.53791 12.25 9.33332Z" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.9075 4.06006L7 7.00589L12.0925 4.06006" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M7 12.88V7" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+
+									<span class="sigma-category-title cursor-pointer ">Categories</span>
+									<span class="sigma-cat-down-arrow">
+										<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+											<path d="M5.5 2.29163V8.29163" stroke="#FFFEF9" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M8.70833 5.5L5.5 8.70833L2.29166 5.5" stroke="#FFFEF9" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</span>
+								</div>
+								<ul class="sigma-category-items">
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Business</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Affiliate</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Algebra</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Calculus</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Biology</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Chemistry</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="sigma-menu-container">
+							<div class="sigma-main-menu-wrap xl:hidden">
+								<nav class="sigma-main-menu">
+									<ul class="sigma-menu">
+										<li class="menu-item-has-children current-menu-item">
+											<a href="index.html">Home</a>
+											<ul class="sub-menu">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="index-2.html">Home Two</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="about.html">About</a>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="course-page.html">Course</a>
+											<ul class="sub-menu">
+												<li class="menu-item-has-children">
+													<a href="course-page.html">Course</a>
+													<ul class="sub-menu">
+														<li><a href="course-page.html">Course</a></li>
+														<li><a href="course-left-sidebar.html">Course Left Sidebar</a></li>
+														<li><a href="course-right-sidebar.html">Course Right Sidebar</a></li>
+													</ul>
+												</li>
+												<li><a href="course-details.html">Course Details</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="#">Pages</a>
+											<ul class="sub-menu">
+												<li class="menu-item-has-children">
+													<a href="shop.html">Shop</a>
+													<ul class="sub-menu">
+														<li><a href="shop.html">Shop</a></li>
+														<li><a href="shop-details.html">Shop Details</a></li>
+														<li><a href="cart.html">Cart</a></li>
+														<li><a href="wishlist.html">Wishlist</a></li>
+														<li><a href="checkout.html">Checkout</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children">
+													<a href="instructor-1.html">Instructor</a>
+													<ul class="sub-menu">
+														<li><a href="instructor-1.html">Instructor</a></li>
+														<li><a href="instructor-details.html">Instructor Details</a></li>
+													</ul>
+												</li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="signaup.html">Sign Up</a></li>
+												<li><a href="signin.html">Sign In</a></li>
+												<li><a href="404.html">404 Page</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children active">
+											<a href="blog.html">Blog</a>
+											<ul class="sub-menu">
+												<li><a href="blog.html">Blog</a></li>
+												<li class="active"><a href="blog-single.html">Blog Single</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+
+							<div class="sigma-mobile-menu-wrap hidden xl:block">
+								<div class="sigma-mobile-menu-toggle">
+									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+										<path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+									</svg>
+								</div>
+								<div class="sigma-mobile-menu  hidden">
+									<div class="sigma-mobile-menu-box">
+										<div class="sigma-mobile-menu-top flex justify-between items-center">
+											<div class="sigma-close-btn close-btn"><i class="fas fa-times"></i></div>
+											<div class="sigma-user-icon hidden lg:block">
+												<a href="signin.html"><i class="fa-regular fa-user"></i></a>
+											</div>
+										</div>
+										<div class="sigma-logo mt-[20px]">
+											<a href="index.html"><img src="assets/image/logo/logo-dark.svg" alt="Logo"></a>
+										</div>
+										<div class="sigma-mobile-menu-outer">
+											<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+										</div>
+										<div class="sigma-mobile-category-outer mt-[40px]">
+
+										</div>
+									</div>
+								</div>
+								<div class="sigma-mobile-menu-backdrop"></div>
+							</div>
+						</div>
+					</div>
+					<div class="sigma-header-middle hidden xl:flex">
+						<div class="sigma-logo -mt-[30px]">
+							<a href="index.html"><img src="assets/image/logo/logo-dark.svg" alt="Logo"></a>
+						</div>
+					</div>
+					<div class="sigma-header-right flex items-center gap-[20px]">
+						<div class="sigma-header-search relative cursor-pointer">
+							<a class="icons" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M20.9999 21L16.6499 16.65" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+
+							<div class="sigma-header-top-search ">
+								<form action="#">
+									<input type="text" placeholder="Search here...">
+								</form>
+							</div>
+						</div>
+						<div class="sigma-header-cart relative cursor-pointer">
+							<div class="sigma-badge">5</div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+								<path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+						<div class="sigma-user flex items-center xl:hidden">
+							<a class="sigma-btn user-item" href="signaup.html">Sign Up</a>
+							<a class="sigma-btn user-item" href="signin.html">Sign In</a>
+						</div>
+						<div class="sigma-user-icon hidden xl:flex ml-[8px]">
+							<a href="signin.html"><i class="fa-regular fa-user"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- =========================== Header Area Ends =========================================== -->
+
+		<!-- =========================== Single Post Area Start =========================================== -->
+
+		<div class="signle-post-area ">
+			<div class="container-md">
+				<div class="sigma-post-heading-wrap text-center w-[720px] md:w-full mx-auto pt-[95px] pb-[65px] lg:pt-[70px] md:pt-[50px] md:pb[60px]">
+					<div class="sigma-blog-category">
+						<div class="sigma-category-list flex flex-wrap justify-center gap-[10px]">
+							<a href="blog.html">Computing</a>
+							<a href="blog.html">Architechture</a>
+							<a href="blog.html">Cloud Engineering</a>
+						</div>
+					</div>
+					<h1 class="sigma-singel-post-title text-[47px] leading-[57px] md:text-[40px] md:leading-[50px] sm:text-[32px] sm:leading-[42px] pt-[15px] break-words mb-0">Increase the processing power of your computer</h1>
+					<p class="sigma-single-post-excerpt text-[16px] text-paragraph leading-[26px] pt-[20px]">How do you optimize the configuration of your server computer? Do you want to get the best out of the cloud? Here is how to do it.</p>
+					<div class="sigma-single-post-author flex justify-center gap-[15px] pt-[40px]">
+						<div class="sigma-sp-author-avatar">
+							<img src="assets/image/blog/author-01.png" alt="Author">
+						</div>
+						<div class="sigma-sp-author-details text-start">
+							<h6 class="sigma-sp-author-name mb-0 -tracking-[.18px]"><a class="text-sigma-title" href="blog-single.html">Ryan Bentham</a></h6>
+							<a href="blog-single.html" class="sigma-sp-date text-gray-600">Jan 20, 2023</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="sigma-single-post-body">
+				<div class="sigmas-mobile-social-share-icon sticky top-[150px] z-[111]  hidden md:flex">
+					<div class="sigma-mss-option absolute flex  h-[40px] w-[40px] bg-sigma-brand text-sigma-secondary text-[20px] rounded-tr-[10px] rounded-br-[10px] items-center justify-center cursor-pointer">
+						<i class="fa-solid fa-share-nodes"></i>
+					</div>
+					<div class="sigma-ms-wrap absolute w-40 top-40  bg-white">
+						<div class="sigma-mss-router flex justify-center">
+
+						</div>
+					</div>
+				</div>
+				<div class="container-md">
+					<div class="sigma-spd-area w-[960px] xl:w-full mx-auto  sigma-animation">
+						<div class="sigma-sp-thumbnail flex justify-center">
+							<img src="assets/image/blog/single-post-thum.png" alt="Thumbnail">
+						</div>
+						<div class="sigma-sp-content-wrap flex pt-[80px] gap-[70px] lg:gap-[40px] lg:pt-[50px]">
+							<div class="sigma-social-share-wrap md:hidden">
+								<div class="sigma-social-share-icons-wrap flex flex-col gap-[10px] sticky top-[120px]">
+									<div class="sigma-social-share-icons">
+										<button class="sigma-copy-btn relative">
+											<span class="sigma-tooltip bg-[#333] text-white text-[14px] absolute px-[10px] py-[2px] rounded-[5px] w-max mb-[10px] -top-[30px] left-[50%] -translate-x-[50%] -translate-y-[25%] opacity-0 transition-[opacity] duration-300 ease-in-out xl:left-[100%] xl:-translate-x-[17%] xl:-translate-y-[-25%] md:left-[30px] md:-top-[5px] md:translate-x-0 md:translate-y-0">
+												Click to copy url
+											</span>
+											<!-- copy -->
+											<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M4.16675 12.5C3.39018 12.5 3.00189 12.5 2.69561 12.3732C2.28723 12.204 1.96277 11.8795 1.79362 11.4712C1.66675 11.1649 1.66675 10.7766 1.66675 10V4.33335C1.66675 3.39993 1.66675 2.93322 1.8484 2.5767C2.00819 2.2631 2.26316 2.00813 2.57676 1.84834C2.93328 1.66669 3.39999 1.66669 4.33341 1.66669H10.0001C10.7767 1.66669 11.1649 1.66669 11.4712 1.79355C11.8796 1.96271 12.2041 2.28717 12.3732 2.69555C12.5001 3.00183 12.5001 3.39012 12.5001 4.16669M10.1667 18.3334H15.6667C16.6002 18.3334 17.0669 18.3334 17.4234 18.1517C17.737 17.9919 17.992 17.7369 18.1518 17.4233C18.3334 17.0668 18.3334 16.6001 18.3334 15.6667V10.1667C18.3334 9.23327 18.3334 8.76656 18.1518 8.41004C17.992 8.09643 17.737 7.84147 17.4234 7.68168C17.0669 7.50002 16.6002 7.50002 15.6667 7.50002H10.1667C9.23333 7.50002 8.76662 7.50002 8.4101 7.68168C8.09649 7.84147 7.84153 8.09643 7.68174 8.41004C7.50008 8.76656 7.50008 9.23327 7.50008 10.1667V15.6667C7.50008 16.6001 7.50008 17.0668 7.68174 17.4233C7.84153 17.7369 8.09649 17.9919 8.4101 18.1517C8.76662 18.3334 9.23333 18.3334 10.1667 18.3334Z" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</button>
+									</div>
+
+									<a target="_blank" href="https://facebook.com">
+										<!-- facebook -->
+										<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="#1877F2" />
+										</svg>
+									</a>
+									<a target="_blank" href="https://twitter.com">
+										<!-- twitter -->
+										<svg viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M6.2896 17.1256C13.8368 17.1256 17.9648 10.8728 17.9648 5.45035C17.9648 5.27275 17.9648 5.09595 17.9528 4.91995C18.7559 4.33908 19.4491 3.61986 20 2.79595C19.2512 3.12795 18.4567 3.34558 17.6432 3.44155C18.4998 2.92879 19.141 2.1222 19.4472 1.17195C18.6417 1.64996 17.7605 1.98681 16.8416 2.16795C16.2229 1.5101 15.4047 1.07449 14.5135 0.928522C13.6223 0.782558 12.7078 0.934381 11.9116 1.3605C11.1154 1.78661 10.4819 2.46326 10.109 3.28574C9.73605 4.10822 9.64462 5.03067 9.8488 5.91035C8.21741 5.82852 6.62146 5.40455 5.16455 4.66596C3.70763 3.92737 2.4223 2.89067 1.392 1.62315C0.867274 2.52648 0.70656 3.59584 0.942583 4.6135C1.17861 5.63117 1.79362 6.52061 2.6624 7.10075C2.00936 7.08162 1.37054 6.90545 0.8 6.58715V6.63915C0.800259 7.58653 1.12821 8.50465 1.72823 9.23779C2.32824 9.97093 3.16338 10.474 4.092 10.6616C3.4879 10.8263 2.85406 10.8504 2.2392 10.732C2.50151 11.5472 3.01202 12.2602 3.69937 12.7711C4.38671 13.282 5.21652 13.5654 6.0728 13.5816C5.22203 14.2503 4.24776 14.7447 3.20573 15.0366C2.16369 15.3284 1.07435 15.4119 0 15.2824C1.87653 16.4865 4.05994 17.1253 6.2896 17.1224" fill="#1DA1F2" />
+										</svg>
+									</a>
+									<a target="_blank" href="https://www.linkedin.com">
+										<!-- linkedin -->
+										<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M18.5236 0H1.47639C1.08483 0 0.709301 0.155548 0.432425 0.432425C0.155548 0.709301 0 1.08483 0 1.47639V18.5236C0 18.9152 0.155548 19.2907 0.432425 19.5676C0.709301 19.8445 1.08483 20 1.47639 20H18.5236C18.9152 20 19.2907 19.8445 19.5676 19.5676C19.8445 19.2907 20 18.9152 20 18.5236V1.47639C20 1.08483 19.8445 0.709301 19.5676 0.432425C19.2907 0.155548 18.9152 0 18.5236 0ZM5.96111 17.0375H2.95417V7.48611H5.96111V17.0375ZM4.45556 6.1625C4.11447 6.16058 3.7816 6.05766 3.49895 5.86674C3.21629 5.67582 2.99653 5.40544 2.8674 5.08974C2.73826 4.77404 2.70554 4.42716 2.77336 4.09288C2.84118 3.7586 3.0065 3.4519 3.24846 3.21148C3.49042 2.97107 3.79818 2.80772 4.13289 2.74205C4.4676 2.67638 4.81426 2.71133 5.12913 2.84249C5.44399 2.97365 5.71295 3.19514 5.90205 3.47901C6.09116 3.76288 6.19194 4.09641 6.19167 4.4375C6.19488 4.66586 6.15209 4.89253 6.06584 5.104C5.97959 5.31547 5.85165 5.50742 5.68964 5.66839C5.52763 5.82936 5.33487 5.95607 5.12285 6.04096C4.91083 6.12585 4.68389 6.16718 4.45556 6.1625ZM17.0444 17.0458H14.0389V11.8278C14.0389 10.2889 13.3847 9.81389 12.5403 9.81389C11.6486 9.81389 10.7736 10.4861 10.7736 11.8667V17.0458H7.76667V7.49306H10.6583V8.81667H10.6972C10.9875 8.22917 12.0042 7.225 13.5556 7.225C15.2333 7.225 17.0458 8.22083 17.0458 11.1375L17.0444 17.0458Z" fill="#0A66C2" />
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="sigma-spd-wrap">
+								<div class="sigma-sp-content">
+									<p class="sigma-sp-content-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.</p>
+									<h4 class="sigma-spc-heading ">Introduction</h4>
+									<p class="sigma-sp-content-text ">
+										Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.
+										<br><br>
+										Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat.
+									</p>
+									<img src="assets/image/blog/blog-single-02.png" alt="Blog" class="sigma-sp-content-img  pt-[40px]">
+									<blockquote class="sigma-spc-blockquote pt-[50px] text-center ">
+										<p class="sigma-spc-blockquote-text text-sigma-title-80 text-[22px] leading-[32px] font-medium italic -tracking-[.44px]">“In a world older and more complete than ours they move finished and complete, gifted with extensions of the senses we have lost or never attained, living by voices we shall never hear.”</p>
+										<p class="sigma-spc-blockquote-user text-[#101828] text-[18px] leading-[28px] font-bold -tracking-[.18px] pt-[30px]">- Ryan Bentham</p>
+									</blockquote>
+									<p class="sigma-sp-content-text pt-[40px] ">
+										Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.
+										<br><br>
+										Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.
+										<br><br>
+										Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci.
+									</p>
+									<h4 class="sigma-spc-heading ">Software and tools</h4>
+									<p class="sigma-sp-content-text ">Sagittis et eu at elementum, quis in. Proin praesent volutpat egestas sociis sit lorem nunc nunc sit. Eget diam curabitur mi ac. Auctor rutrum lacus malesuada massa ornare et. Vulputate consectetur ac ultrices at diam dui eget fringilla tincidunt.</p>
+									<ul class="sigma-spc-list list-decimal list-inside flex flex-col gap-[10px]  ">
+										<li class="sigma-spc-list-item text-gray-600">Lectus id duis vitae porttitor enim gravida morbi.</li>
+										<li class="sigma-spc-list-item text-gray-600">Eu turpis posuere semper feugiat volutpat elit, ultrices suspendisse. Auctor vel in vitae placerat.</li>
+										<li class="sigma-spc-list-item text-gray-600">Suspendisse maecenas ac donec scelerisque diam sed est duis purus.</li>
+									</ul>
+								</div>
+								<div class="sigma-sp-footer mt-[60px] pt-[25px] border-t border-solid border-t-gray-200 ">
+									<div class="sigma-sp-tags flex gap-[10px] flex-wrap">
+										<a class="bg-sigma-bg-light text-sigma-title-80 font-medium text-[14px] font-secondary leading-[20px] px-[10px] py-[5px] rounded-[4px]  hover:bg-sigma-brand hover:text-white" href="blog-single.html">Computation</a>
+										<a class="bg-sigma-bg-light text-sigma-title-80 font-medium text-[14px] font-secondary leading-[20px] px-[10px] py-[5px] rounded-[4px]  hover:bg-sigma-brand hover:text-white" href="blog-single.html">Engineering</a>
+										<a class="bg-sigma-bg-light text-sigma-title-80 font-medium text-[14px] font-secondary leading-[20px] px-[10px] py-[5px] rounded-[4px]  hover:bg-sigma-brand hover:text-white" href="blog-single.html">Cloud</a>
+										<a class="bg-sigma-bg-light text-sigma-title-80 font-medium text-[14px] font-secondary leading-[20px] px-[10px] py-[5px] rounded-[4px]  hover:bg-sigma-brand hover:text-white" href="blog-single.html">Performance</a>
+									</div>
+								</div>
+								<div class="sigma-blog-contact-form pt-[60px] md:pt-[40px]">
+									<h2 class="sigma-comment-title text-[30px] md:text-[24px]">Leave a Reply</h2>
+									<form action="#" method="post" id="ajax_contact" class="sigma-comment-form pt-[30px] flex flex-col gap-y-[30px]">
+										<div class="grid grid-cols-2 md:grid-cols-1 gap-[30px]">
+											<div class="sigma-form-item relative">
+												<input type="text" id="fullname" name="fullname" class="form-control w-full bg-sigma-section-bg rounded-[6px] py-[12px] px-[20px] border-none text-heading placeholder:text-paragraph" placeholder="Your Name">
+												<div class="sigma-form-icon absolute top-1/2 right-[20px] -translate-y-1/2"><i class="fa-regular fa-user"></i></div>
+											</div>
+											<div class="sigma-form-item relative">
+												<input type="email" id="email" name="email" class="form-control w-full bg-sigma-section-bg rounded-[6px] py-[12px] px-[20px] border-none text-heading placeholder:text-paragraph" placeholder="Your Email">
+												<div class="sigma-form-icon absolute top-1/2 right-[20px] -translate-y-1/2"><i class="fa-sharp fa-regular fa-envelope"></i></div>
+											</div>
+										</div>
+										<div class="sigma-form-item relative">
+											<input type="text" id="website" name="email" class="form-control w-full bg-sigma-section-bg rounded-[6px] py-[12px] px-[20px] border-none text-heading placeholder:text-paragraph" placeholder="Website">
+											<div class="sigma-form-icon absolute top-1/2 right-[20px] -translate-y-1/2"><i class="fa-solid fa-globe"></i></div>
+										</div>
+
+										<div class="sigma-form-item relative sigma-message-item">
+											<textarea id="message" name="message" cols="30" rows="5" class="address form-control w-full bg-sigma-section-bg rounded-[6px] py-[12px] px-[20px] border-none text-heading placeholder:text-paragraph resize-none" placeholder="Message"></textarea>
+											<div class="sigma-form-icon absolute top-[25px] right-[20px] -translate-y-1/2"><i class="fa-solid fa-message"></i></div>
+										</div>
+										<div class="ed-contact-input-remeber">
+											<input id="remeber" type="checkbox">
+											<label for="remeber">Save my name, email, and website in this browser for the next time I comment.</label>
+										</div>
+										<div class="sigma-submit-btn">
+											<button id="submit" class="sigma-btn" type="submit">Post A Comment</button>
+										</div>
+									</form>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- =========================== Single Post Area Ends =========================================== -->
+
+		<!-- =========================== Subscribe Area Start =========================================== -->
+
+		<div class="sigma-subscribe-area sigma-section-padding sigma-animation ">
+			<div class="container-md">
+				<div class="grid grid-cols-12 items-center w-[960px] xl:w-full mx-auto gap-[30px] lg:gap-[20px] md:gap-y-[30px]">
+					<div class="col-span-5 lg:col-span-6 md:col-span-12">
+						<div class="sigma-subscribe-text md:text-center">
+							<h5 class="sigma-subscribe-heading text-sigma-title text-[22px] leading-[32px] -tracking-[.22px]">Still thinking about it?</h5>
+							<p class="sigma-subscribe-text text-paragraph text-[16px] leading-[26px] w-[325px] lg:w-full">Sign up for our newsletter and <span class="font-bold text-sigma-secondary">get 10% off</span>
+								your next course purchase.</p>
+						</div>
+					</div>
+					<div class="col-span-7 lg:col-span-6 md:col-span-12">
+						<div class="sigma-subscribe-form-wrap flex justify-end items-center md:block">
+							<form class="sigma-subscribe-form flex gap-[10px] ml:flex-col ml:items-center" action="#">
+								<input class="sigma-subscribe-form-input text-sigma-title-50 text-[16px] leading-[26px] px-[14px] py-[12px] border border-solid border-gray-300 bg-white rounded-[4px] w-[360px] shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] ml:w-full" type="email" placeholder="Enter your email">
+								<button class="sigma-btn font-semibold text-[16px] px-[20px] py-[12px] leading-[26px] bg-sigma-accent text-white ml:w-max">Subscribe</button>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- =========================== Subscribe Area Ends =========================================== -->
+
+		<!-- =========================== Footer Area Start =========================================== -->
+		<div class="sigma-footer-area sigma-section-padding sigma-section-margin pb-[45px] bg-sigma-section-bg-2">
+			<div class="container-md">
+				<div class="sigma-call-to-action-area w-[656px] lg:w-full mx-auto">
+					<h4 class="sigma-cta-heading text-white -tracking-[.58px] text-center leading-[42px] md:leading-[37px] sm:leading-[34px] mb-[15px]">
+						Become an instructor, teach greatest courses that you want to share the world.
+					</h4>
+					<p class="sigma-cta-text text-white text-[16px] leading-[26px] text-center">
+						Teach your best expertise. Get started in few clicks.
+					</p>
+					<div class="sgima-cta-btn-wrap sigma-btn-wrap flex flex-wrap gap-[30px] justify-center items-center pt-[40px]">
+						<a class="sigma-cta-btn font-semibold text-[16px] leading-[28px] bg-sigma-secondary  text-sigma-brand hover:bg-white sigma-btn relative overflow-hidden " href="contact.html">
+							Get Started
+						</a>
+						<a class="sigma-btn sigma-play-btn bg-transparent text-white font-semibold text-[16px] leading-[28px] px-0 flex gap-[15px] items-center no-underline transition-all duration-300 ease-in-out hover:bg-transparent hover:text-sigma-secondary  " href="https://www.youtube.com/watch?v=ENMVBipt8RM">
+							<span class="sigma-play-icon bg-white flex justify-center items-center h-[47px] w-[47px] rounded-[50%] leading-[47px]  border-[1px] border-solid border-sigma-secondary transition-all duration-300 ease-in-out text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+									<path d="M12.9646 7.07236C13.3118 7.26585 13.3118 7.73406 12.9646 7.92754L2.1076 13.978C1.7252 14.1911 1.3 13.9074 1.3 13.5504L1.3 1.4495C1.3 1.09249 1.7252 0.808804 2.1076 1.02191L12.9646 7.07236Z" fill="#0E0062" stroke="black" />
+								</svg>
+							</span>
+							Watch Intro
+						</a>
+					</div>
+				</div>
+
+				<div class="sigma-footer-bottom py-[60px] mt-[60px] mb-[30px] md:py-[40px] md:mt-[40px] border-t border-b border-solid border-[#7F56D9] border-b-[#eaecf059]">
+					<div class="grid grid-cols-12 gap-[60px] xl:gap-[30px] lg:gap-x-[10px] lg:gap-y-[40px]">
+						<div class="col-span-4 lg:col-span-12">
+							<div class="sigma-footer-item-wrap">
+								<div class="sigma-footer-logo -ml-[10px]">
+									<a href="index.html">
+										<img src="assets/image/logo/logo-white.png" alt="Logo">
+									</a>
+								</div>
+								<p class="sigma-footer-text pt-[45px] lg:pt-[20px] text-white text-[16px] leading-[28px] w-[340px] xl:w-full">
+									Design amazing digital experiences that create more happy in the world. Design amazing digital experiences that create more happy in the world.
+								</p>
+							</div>
+						</div>
+						<div class="col-span-3 lg:col-span-6">
+							<div class="sigma-footer-item-wrap">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Products</h6>
+								<ul class="sigma-footer-lists flex flex-col gap-[12px] list-none pt-[15px]">
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="signaup.html">Registration</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="course-page.html">Courses</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="about.html">Why Choose Us</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="instructor-1.html">Instructor</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="contact.html">Get In Tuch</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-span-3 lg:col-span-6">
+							<div class="sigma-footer-item-wrap">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Resources</h6>
+								<ul class="sigma-footer-lists flex flex-col gap-[12px] list-none pt-[15px]">
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="index.html">Home</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="course-page.html">Courses</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="about.html">About Us</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="blog.html">Blog</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-span-2 lg:col-span-12">
+							<div class="sigma-footer-item-wrap text-right lg:text-left">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Get the app</h6>
+								<div class="sigma-footer-image-wrap flex flex-col gap-[15px] items-end pt-[15px] lg:items-start">
+									<a class="sigma-footer-img" href="https://www.apple.com/app-store/">
+										<img src="assets/image/icon/apple-store-white.png" alt="Apple store">
+									</a>
+									<a class="sigma-footer-img" href="https://play.google.com/store/">
+										<img src="assets/image/icon/google-play-store-white.png" alt="Play store">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-footer-bottom flex flex-wrap justify-between gap-[30px] items-center md:flex-col">
+					<p class="sigma-copyright-text text-white text-[16px] leading-[24px]">© 2024 Sigma Education Center. All rights reserved.</p>
+					<ul class="sigma-footer-social-wrap flex gap-[24px] list-none">
+						<li class="sigma-footer-social-item">
+							<a href="https://x.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M7.55016 21.7502C16.6045 21.7502 21.5583 14.2469 21.5583 7.74211C21.5583 7.53117 21.5536 7.31554 21.5442 7.1046C22.5079 6.40771 23.3395 5.5445 24 4.55554C23.1025 4.95484 22.1496 5.21563 21.1739 5.32898C22.2013 4.71315 22.9705 3.74572 23.3391 2.60601C22.3726 3.1788 21.3156 3.58286 20.2134 3.80085C19.4708 3.01181 18.489 2.48936 17.4197 2.3143C16.3504 2.13923 15.2532 2.32129 14.2977 2.83234C13.3423 3.34339 12.5818 4.15495 12.1338 5.14156C11.6859 6.12816 11.5754 7.23486 11.8195 8.29054C9.86249 8.19233 7.94794 7.68395 6.19998 6.79834C4.45203 5.91274 2.90969 4.66968 1.67297 3.14976C1.0444 4.23349 0.852057 5.51589 1.13503 6.73634C1.418 7.95678 2.15506 9.02369 3.19641 9.72023C2.41463 9.69541 1.64998 9.48492 0.965625 9.10617V9.1671C0.964925 10.3044 1.3581 11.4068 2.07831 12.287C2.79852 13.1672 3.80132 13.7708 4.91625 13.9952C4.19206 14.1934 3.43198 14.2222 2.69484 14.0796C3.00945 15.0577 3.62157 15.9131 4.44577 16.5266C5.26997 17.14 6.26512 17.4808 7.29234 17.5015C5.54842 18.8714 3.39417 19.6144 1.17656 19.6109C0.783287 19.6103 0.390399 19.5861 0 19.5387C2.25286 20.984 4.87353 21.7516 7.55016 21.7502Z" fill="white" />
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://www.linkedin.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z" fill="white" />
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://www.facebook.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g clip-path="url(#clip0_868_37072)">
+										<path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z" fill="white" />
+									</g>
+									<defs>
+										<clippath id="clip0_868_37072">
+											<rect width="24" height="24" fill="white" />
+										</clippath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://github.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g clip-path="url(#clip0_868_37073)">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.3724 0 0 5.3808 0 12.0204C0 17.3304 3.438 21.8364 8.2068 23.4252C8.8068 23.5356 9.0252 23.1648 9.0252 22.8456C9.0252 22.5612 9.0156 21.804 9.0096 20.802C5.6712 21.528 4.9668 19.1904 4.9668 19.1904C4.422 17.8008 3.6348 17.4312 3.6348 17.4312C2.5452 16.6872 3.7176 16.7016 3.7176 16.7016C4.9212 16.7856 5.5548 17.94 5.5548 17.94C6.6252 19.776 8.364 19.2456 9.0468 18.9384C9.1572 18.162 9.4668 17.6328 9.81 17.3328C7.146 17.0292 4.344 15.9972 4.344 11.3916C4.344 10.08 4.812 9.006 5.5788 8.166C5.4552 7.8624 5.0436 6.6396 5.6964 4.986C5.6964 4.986 6.7044 4.662 8.9964 6.2172C9.97532 5.95022 10.9853 5.81423 12 5.8128C13.02 5.8176 14.046 5.9508 15.0048 6.2172C17.2956 4.662 18.3012 4.9848 18.3012 4.9848C18.9564 6.6396 18.5436 7.8624 18.4212 8.166C19.1892 9.006 19.6548 10.08 19.6548 11.3916C19.6548 16.0092 16.848 17.0256 14.1756 17.3232C14.6064 17.694 14.9892 18.4272 14.9892 19.5492C14.9892 21.1548 14.9748 22.452 14.9748 22.8456C14.9748 23.1672 15.1908 23.5416 15.8004 23.424C18.19 22.6225 20.2672 21.0904 21.7386 19.0441C23.2099 16.9977 24.001 14.5408 24 12.0204C24 5.3808 18.6264 0 12 0Z" fill="white" />
+									</g>
+									<defs>
+										<clippath id="clip0_868_37073">
+											<rect width="24" height="24" fill="white" />
+										</clippath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- =========================== Footer Area Ends =========================================== -->
+
+		<!-- scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/vendors/magnifi-popup/jquery.magnific-popup.min.js"></script>
+		<script src="assets/vendors/counter-up/purecounter.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/vendors/wow-js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>

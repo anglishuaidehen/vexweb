@@ -1,0 +1,230 @@
+
+@keyframes spinner {
+    to {
+        transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+        -o-transform: rotateZ(360deg);
+    }
+}
+
+@keyframes letters-loading {
+
+    0%,
+    75%,
+    100% {
+        opacity: 0;
+        transform: rotateY(-90deg);
+        -webkit-transform: rotateY(-90deg);
+        -moz-transform: rotateY(-90deg);
+        -ms-transform: rotateY(-90deg);
+        -o-transform: rotateY(-90deg);
+    }
+
+    25%,
+    50% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+    }
+}
+
+@keyframes hero-span-svg-animation {
+    from {
+        stroke-dashoffset: 160;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes hero-span-svg-animation-2 {
+    from {
+        stroke-dashoffset: 210;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes banner-floating-img-2-animation {
+    0% {
+        @apply right-[0%]
+    }
+    50% {
+        @apply right-[75%]
+    }
+    100% {
+        @apply right-[0%]
+    }
+}
+
+@keyframes hero-btn-floating-icon-animation {
+    0% {
+        @apply -rotate-[15deg]
+    }
+    50% {
+        @apply rotate-[15deg]
+    }
+    100% {
+        @apply -rotate-[15deg]
+    }
+}
+
+@keyframes banner-image-bg-animation {
+    from {
+        @apply rotate-[0deg]
+    }
+    to {
+        @apply rotate-[359deg]
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.sigma__fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.sigma__fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.sigma__fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.sigma__fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+@keyframes sigma-hero-span-animation {
+    from {
+        stroke-dashoffset: 160;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes sigma-hero-span-animation-2 {
+    from {
+        stroke-dashoffset: 210;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes sigma-bfi-animation-two {
+    0% {
+        right: 0%;
+    }
+    50% {
+        right: 75%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+
+@keyframes sigma-bfi-animation {
+    0% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+@keyframes sigma-bib-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

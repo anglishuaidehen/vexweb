@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sigma LMS HTML Template</title>
+
+		<!-- Fav Icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+
+		<!-- Fonts -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css">
+		<link rel="stylesheet" href="assets/vendors/magnifi-popup/magnific-popup.css">
+		<link rel="stylesheet" href="assets/vendors/animate-css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/root.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+
+	<body class="relative">
+		<!-- =========================== Preloader Starts =========================================== -->
+
+		<div id="preloader">
+			<div class="ctn-preloader" id="ctn-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+						<span class="letters-loading" data-text-preloader="S"> S </span>
+						<span class="letters-loading" data-text-preloader="I"> I </span>
+						<span class="letters-loading" data-text-preloader="G"> G </span>
+						<span class="letters-loading" data-text-preloader="M"> M </span>
+						<span class="letters-loading" data-text-preloader="A"> A </span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Preloader Ends =========================================== -->
+
+		<!-- =========================== Back To Top Starts =========================================== -->
+		<div class="sigma-bt-top inline-block  rounded-[4px] fixed -bottom-[10%] right-[30px] transition-all duration-700 ease-in-out opacity-0 invisible z-[100] border-none cursor-pointer">
+			<button class="scroll__top scroll-to-target inline-block w-[50px] h-[50px] leading-[50px] bg-sigma-border-light text-heading  text-[20px] text-center transition-all duration-300 ease-in-out  hover:bg-sigma-accent hover:text-white" data-target="html">
+				<i class="fas fa-angle-up text-[25px] leading-[25px]"></i>
+			</button>
+		</div>
+
+		<!-- =========================== Back To Top Ends =========================================== -->
+
+		<!-- =========================== Header Area Start =========================================== -->
+
+		<header class="sigma-header-area sigma-header-two sigma-header-light sigma-sticky-header bg-white">
+			<div class="container-md">
+				<div class="sigma-header-wrap flex justify-between items-center py-[20px]">
+					<div class="sigma-header-left flex gap-[65px] xx:gap-[40px] items-center xl:flex-row-reverse">
+						<div class="sigma-logo -mt-[25px] xl:hidden">
+							<a href="index.html"><img class="-ml-[10px]" src="assets/image/logo/logo-dark.svg" alt="Logo"></a>
+						</div>
+						<div class="sigma-header-category mr-[20px] transition-all duration-300 ease-in-out relative xl:hidden">
+							<nav id="sigma-category-menu" class="sigma-category-menu flex items-center gap-[4px] pr-25 relative">
+								<div class="sigma-category-title-wrap flex items-center gap-[4px] ">
+									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+										<path d="M12.25 9.33332V4.66665C12.2498 4.46206 12.1958 4.26112 12.0934 4.084C11.991 3.90687 11.8438 3.75978 11.6667 3.65748L7.58333 1.32415C7.40598 1.22175 7.20479 1.16785 7 1.16785C6.79521 1.16785 6.59402 1.22175 6.41667 1.32415L2.33333 3.65748C2.15615 3.75978 2.00899 3.90687 1.9066 4.084C1.80422 4.26112 1.75021 4.46206 1.75 4.66665V9.33332C1.75021 9.53791 1.80422 9.73884 1.9066 9.91597C2.00899 10.0931 2.15615 10.2402 2.33333 10.3425L6.41667 12.6758C6.59402 12.7782 6.79521 12.8321 7 12.8321C7.20479 12.8321 7.40598 12.7782 7.58333 12.6758L11.6667 10.3425C11.8438 10.2402 11.991 10.0931 12.0934 9.91597C12.1958 9.73884 12.2498 9.53791 12.25 9.33332Z" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.9075 4.06006L7 7.00589L12.0925 4.06006" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M7 12.88V7" stroke="#FFFEF9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+
+									<span class="sigma-category-title cursor-pointer ">Categories</span>
+									<span class="sigma-cat-down-arrow">
+										<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+											<path d="M5.5 2.29163V8.29163" stroke="#FFFEF9" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M8.70833 5.5L5.5 8.70833L2.29166 5.5" stroke="#FFFEF9" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</span>
+								</div>
+								<ul class="sigma-category-items">
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Business</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Affiliate</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Algebra</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Calculus</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Biology</a></li>
+									<li class="sigma-category-item py-[10px] relative px-[20px]"><a href="course-page.html">Chemistry</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="sigma-menu-container">
+							<div class="sigma-main-menu-wrap xl:hidden">
+								<nav class="sigma-main-menu">
+									<ul class="sigma-menu">
+										<li class="menu-item-has-children current-menu-item">
+											<a href="index.html">Home</a>
+											<ul class="sub-menu">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="index-2.html">Home Two</a></li>
+											</ul>
+										</li>
+										<li class="active">
+											<a href="about.html">About</a>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="course-page.html">Course</a>
+											<ul class="sub-menu">
+												<li class="menu-item-has-children">
+													<a href="course-page.html">Course</a>
+													<ul class="sub-menu">
+														<li><a href="course-page.html">Course</a></li>
+														<li><a href="course-left-sidebar.html">Course Left Sidebar</a></li>
+														<li><a href="course-right-sidebar.html">Course Right Sidebar</a></li>
+													</ul>
+												</li>
+												<li><a href="course-details.html">Course Details</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="#">Pages</a>
+											<ul class="sub-menu">
+												<li class="menu-item-has-children">
+													<a href="shop.html">Shop</a>
+													<ul class="sub-menu">
+														<li><a href="shop.html">Shop</a></li>
+														<li><a href="shop-details.html">Shop Details</a></li>
+														<li><a href="cart.html">Cart</a></li>
+														<li><a href="wishlist.html">Wishlist</a></li>
+														<li><a href="checkout.html">Checkout</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-has-children">
+													<a href="instructor-1.html">Instructor</a>
+													<ul class="sub-menu">
+														<li><a href="instructor-1.html">Instructor</a></li>
+														<li><a href="instructor-details.html">Instructor Details</a></li>
+													</ul>
+												</li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="signaup.html">Sign Up</a></li>
+												<li><a href="signin.html">Sign In</a></li>
+												<li><a href="404.html">404 Page</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="blog.html">Blog</a>
+											<ul class="sub-menu">
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="blog-single.html">Blog Single</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+
+							<div class="sigma-mobile-menu-wrap hidden xl:block">
+								<div class="sigma-mobile-menu-toggle">
+									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+										<path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+									</svg>
+								</div>
+								<div class="sigma-mobile-menu  hidden">
+									<div class="sigma-mobile-menu-box">
+										<div class="sigma-mobile-menu-top flex justify-between items-center">
+											<div class="sigma-close-btn close-btn"><i class="fas fa-times"></i></div>
+											<div class="sigma-user-icon hidden lg:block">
+												<a href="signin.html"><i class="fa-regular fa-user"></i></a>
+											</div>
+										</div>
+										<div class="sigma-logo mt-[20px]">
+											<a href="index.html"><img src="assets/image/logo/logo-dark.svg" alt="Logo"></a>
+										</div>
+										<div class="sigma-mobile-menu-outer">
+											<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+										</div>
+										<div class="sigma-mobile-category-outer mt-[40px]">
+
+										</div>
+									</div>
+								</div>
+								<div class="sigma-mobile-menu-backdrop"></div>
+							</div>
+						</div>
+					</div>
+					<div class="sigma-header-middle hidden xl:flex">
+						<div class="sigma-logo -mt-[30px]">
+							<a href="index.html"><img src="assets/image/logo/logo-dark.svg" alt="Logo"></a>
+						</div>
+					</div>
+					<div class="sigma-header-right flex items-center gap-[20px]">
+						<div class="sigma-header-search relative cursor-pointer">
+							<a class="icons" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M20.9999 21L16.6499 16.65" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+
+							<div class="sigma-header-top-search ">
+								<form action="#">
+									<input type="text" placeholder="Search here...">
+								</form>
+							</div>
+						</div>
+						<div class="sigma-header-cart relative cursor-pointer">
+							<div class="sigma-badge">5</div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+								<path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="#03071E" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+						<div class="sigma-user flex items-center xl:hidden">
+							<a class="sigma-btn user-item" href="signaup.html">Sign Up</a>
+							<a class="sigma-btn user-item" href="signin.html">Sign In</a>
+						</div>
+						<div class="sigma-user-icon hidden xl:flex ml-[8px]">
+							<a href="signin.html"><i class="fa-regular fa-user"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- =========================== Header Area Ends =========================================== -->
+
+		<!-- =========================== Page Title Area Start =========================================== -->
+		<div class="sigma-page-title-area sigma-page-title-dark bg-sigma-section-bg-2 sigma-section-specing-has-bg-no-margin">
+			<div class="container-md">
+				<div class="sigma-page-title-wrap text-center">
+					<h6 class="sigma-page-title text-sigma-secondary font-semibold mb-5">About Us</h6>
+					<h1 class="sigma-page-heading w-[780px] text-white text-[47px] leading-[57px] md:text-[40px] md:leading-[50px] sm:text-[32px] sm:leading-[42px] mb-0 mx-auto lg:w-[80%] md:w-[90%] sm:w-full">A Large Range of Course Learning Paths</h1>
+					<p class="sigma-page-description text-white pt-[20px] w-[500px] lg:w-full mx-auto">Discover how we started, what we stand for, and the vision guiding our success and commitment to our customers.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- =========================== Page Title Area Ends =========================================== -->
+
+		<!-- =========================== About Us Area Start =========================================== -->
+		<div class="sigma-about-us sigma-section-padding">
+			<div class="container-lg">
+				<div class="grid grid-cols-12 gap-x-[40px] lg:gap-x-0 lg:gap-y-[30px]">
+					<div class="col-span-5 xl:col-span-6 lg:col-span-12 lg:order-2">
+						<div class="sigma-about-details-wrap sigma-animation">
+							<h6 class="sigma-pre-heading text-[16px] text-sigma-secondary mb-[5px]">About Us</h6>
+							<h3 class="sigma-heading text-heading text-[34px] leading-[48px] w-[350px] lg:w-full sm:text-[28px] sm:leading-[42px]">We Providing The <span class="text-sigma-secondary">Best Quality</span> Online Courses.</h3>
+							<p class="sigma-about-text pt-[20px] text-[16px] text-paragraph leading-[26px] pr-[85px] sm:pr-0">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+							<ul class="sigma-about-details-list list-none pt-[30px] flex flex-col gap-y-[15px]">
+								<li class="flex gap-x-[10px] text-heading text-[16px] leading-[26px]  font-semibold">
+									<span class="sigma-ad-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class><g><path d="M97.085 7.68C71.823 29.305 50.886 60.22 35.334 93.696c-.416.915-1.705.894-2.12 0-9.378-20.833-19.17-36.136-30.232-44.14-.977-.707-.353-2.246.832-2.1 12.018 1.517 25.158 9.314 30.46 17.32C48.807 39.45 69.1 20.633 95.754 5.787c1.227-.686 2.391.978 1.33 1.893z" fill="#FFB800" opacity="1" data-original="#000000" class></path></g></svg>
+									</span>
+									<span class="sigma-ad-text">Flexible Classes</span>
+								</li>
+								<li class="flex gap-x-[10px] text-heading text-[16px] leading-[26px]  font-semibold">
+									<span class="sigma-ad-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class><g><path d="M97.085 7.68C71.823 29.305 50.886 60.22 35.334 93.696c-.416.915-1.705.894-2.12 0-9.378-20.833-19.17-36.136-30.232-44.14-.977-.707-.353-2.246.832-2.1 12.018 1.517 25.158 9.314 30.46 17.32C48.807 39.45 69.1 20.633 95.754 5.787c1.227-.686 2.391.978 1.33 1.893z" fill="#FFB800" opacity="1" data-original="#000000" class></path></g></svg>
+									</span>
+									<span class="sigma-ad-text">Offline Classe Mode</span>
+								</li>
+								<li class="flex gap-x-[10px] text-heading text-[16px] leading-[26px]  font-semibold">
+									<span class="sigma-ad-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class><g><path d="M97.085 7.68C71.823 29.305 50.886 60.22 35.334 93.696c-.416.915-1.705.894-2.12 0-9.378-20.833-19.17-36.136-30.232-44.14-.977-.707-.353-2.246.832-2.1 12.018 1.517 25.158 9.314 30.46 17.32C48.807 39.45 69.1 20.633 95.754 5.787c1.227-.686 2.391.978 1.33 1.893z" fill="#FFB800" opacity="1" data-original="#000000" class></path></g></svg>
+									</span>
+									<span class="sigma-ad-text">Educator Support</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-span-7 xl:col-span-6 lg:col-span-12 lg:order-1">
+						<div class="sigma-about-image sigma-animation">
+							<img class="lg:w-full" src="assets/image/about/about-03.png" alt="About Us">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== About Us Area Ends =========================================== -->
+
+		<!-- =========================== logo Area Start =========================================== -->
+		<div class="sigma-brnad-area sigma-animation bg-sigma-section-bg sigma-section-specing-has-bg py-[70px] md:py-[50px]">
+			<div class="container-lg">
+				<div class="swiper logoSlider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-01.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-02.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-03.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-04.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-05.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-06.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-04.png" alt="Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sigma-logo-wrap flex justify-center items-center">
+								<img src="assets/image/brand/brand-05.png" alt="Logo">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Logo Area Ends =========================================== -->
+
+		<!-- =========================== Why Choose Area Start =========================================== -->
+		<div class="sigma-why-choose-us sigma-section-padding sigma-animation">
+			<div class="container-lg">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px] w-[525px] mx-auto md:w-full">The Best <span class="text-sigma-secondary">Beneficial</span> Side of Sigma</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						A curated collection of amazing courses, chosen based on
+						popularity and ratings by students.
+					</p>
+				</div>
+				<div class="grid grid-cols-3 gap-x-[30px] lg:grid-cols-2 mls:grid-cols-1 lg:gap-y-[30px] mls:gap-x-0 pt-[60px] md:pt-[40px] sigma-animation">
+					<div class="sigma-services-item text-center bg-white py-[60px] px-[50px] xl:px-[40px] xl:py-[40px]  rounded-[5px] shadow-[0_10px_30px_0_rgba(0,0,0,0.05)]">
+						<div class="sigma-services-icon sigma-icon-one flex justify-center items-center mx-auto bg-[#0700522e] h-[100px] w-[100px] rounded-[50%] transition-all duration-300 ease-in-out">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" x="0" y="0" viewBox="0 0 605.625 605.625" style="enable-background:new 0 0 512 512" xml:space="preserve" class><g><g fill-rule="evenodd" clip-rule="evenodd"><path d="M266.106 479.725v-74.282c0-5.272-4.29-9.562-9.562-9.562-5.279 0-9.563 4.29-9.563 9.562v74.282c0 5.279 4.284 9.562 9.563 9.562 5.271.001 9.562-4.283 9.562-9.562zm-69.934-74.281v74.282c0 5.279 4.284 9.562 9.562 9.562s9.562-4.284 9.562-9.562v-74.282c0-5.272-4.284-9.562-9.562-9.562-5.278-.001-9.562 4.289-9.562 9.562z" fill="#000000" opacity="1" data-original="#000000" class></path><path d="M168.594 489.288h125.084c5.279 0 9.562-4.284 9.562-9.562 0-5.279-4.284-9.562-9.562-9.562H168.594c-5.278 0-9.562 4.284-9.562 9.562-.001 5.278 4.283 9.562 9.562 9.562zM393.982 395.881H29.855c-5.4 0-9.779-4.373-9.779-9.773V93.298c0-5.4 4.38-9.773 9.779-9.773h94.114c5.278 0 9.562-4.284 9.562-9.562s-4.284-9.562-9.562-9.562H29.855C13.892 64.4.95 77.335.95 93.298v292.81c0 15.963 12.941 28.898 28.904 28.898h364.127c5.279 0 9.562-4.284 9.562-9.562.001-5.273-4.283-9.563-9.561-9.563zm48.214-188.011v87.663c0 5.272 4.284 9.562 9.562 9.562 5.279 0 9.562-4.29 9.562-9.562V207.87c0-5.279-4.284-9.562-9.562-9.562-5.278-.001-9.562 4.283-9.562 9.562z" fill="#000000" opacity="1" data-original="#000000" class></path><path d="M392.21 319.043H10.513c-5.279 0-9.562 4.278-9.562 9.562v57.503a28.923 28.923 0 0 0 8.466 20.438 28.896 28.896 0 0 0 20.438 8.46h364.127c5.279 0 9.562-4.284 9.562-9.562 0-5.272-4.284-9.562-9.562-9.562H29.855a9.774 9.774 0 0 1-9.779-9.772v-47.94H392.21c5.279 0 9.562-4.284 9.562-9.562s-4.284-9.565-9.562-9.565z" fill="#000000" opacity="1" data-original="#000000" class></path><path d="M451.759 285.97c-43.994 0-79.707 35.713-79.707 79.707s35.713 79.707 79.707 79.707 79.713-35.713 79.713-79.707-35.72-79.707-79.713-79.707zm0 19.125c33.437 0 60.588 27.145 60.588 60.582s-27.151 60.582-60.588 60.582-60.582-27.145-60.582-60.582 27.145-60.582 60.582-60.582zM327.554 605.625c57.719 0 190.721 0 248.446-.191 9.837 0 19.01-5.075 24.27-13.426a28.705 28.705 0 0 0 1.568-27.719c-.006-.013-.006-.019-.013-.032-27.004-55.679-84.086-94.095-150.067-94.095-65.969 0-123.038 38.403-150.227 93.98-.013.019-.019.038-.032.057a28.91 28.91 0 0 0 26.055 41.426zm0-19.125h-.006a9.784 9.784 0 0 1-8.275-4.571 9.777 9.777 0 0 1-.542-9.422c24.085-49.202 74.613-83.219 133.027-83.219 58.408 0 108.936 34.011 132.849 83.296a9.583 9.583 0 0 1-8.638 13.726h-.032c-57.706.19-190.676.19-248.383.19zM251.921 107.196V28.898c0-5.4 4.38-9.773 9.779-9.773h212.555a9.804 9.804 0 0 1 6.911 2.862 9.77 9.77 0 0 1 2.862 6.911V153.58a9.774 9.774 0 0 1-2.862 6.911 9.796 9.796 0 0 1-6.911 2.862H333.266c-5.272 0-9.562 4.284-9.562 9.562s4.29 9.562 9.562 9.562h140.989c7.663 0 15.013-3.047 20.432-8.466s8.466-12.769 8.466-20.432V28.897a28.899 28.899 0 0 0-8.466-20.432A28.898 28.898 0 0 0 474.256 0H261.701c-15.963 0-28.904 12.941-28.904 28.898v78.298c0 5.278 4.29 9.562 9.562 9.562 5.278 0 9.562-4.284 9.562-9.562z" fill="#000000" opacity="1" data-original="#000000" class></path><path d="M429.727 44.497h-82.18c-5.279 0-9.562 4.284-9.562 9.562s4.284 9.562 9.562 9.562h82.18c5.272 0 9.562-4.284 9.562-9.562s-4.29-9.562-9.562-9.562zM429.727 81.676H363.35c-5.279 0-9.562 4.284-9.562 9.562s4.284 9.562 9.562 9.562h66.376c5.272 0 9.562-4.284 9.562-9.562.001-5.278-4.289-9.562-9.561-9.562zM429.727 118.855h-48.004c-5.279 0-9.562 4.284-9.562 9.562 0 5.279 4.284 9.562 9.562 9.562h48.004c5.272 0 9.562-4.284 9.562-9.562s-4.29-9.562-9.562-9.562zM164.501 30.084c-27.954 0-50.649 22.695-50.649 50.649s22.695 50.656 50.649 50.656c27.961 0 50.656-22.701 50.656-50.656s-22.695-50.649-50.656-50.649zm0 19.125c17.404 0 31.531 14.127 31.531 31.524 0 17.404-14.127 31.531-31.531 31.531-17.397 0-31.524-14.127-31.524-31.531 0-17.397 14.127-31.524 31.524-31.524zM236.596 148.008H135.291c-27.514 0-51.006 19.852-55.596 46.984a149176.11 149176.11 0 0 1-10.965 64.834 22.456 22.456 0 0 0 22.141 26.195h104.875c12.399 0 22.453-10.053 22.453-22.453v-51.905H242.2a49.726 49.726 0 0 0 34.419-13.84c7.695-7.389 17.895-17.168 26.361-25.29a31.857 31.857 0 0 0 9.786-22.306 31.825 31.825 0 0 0-9.039-22.88 31.797 31.797 0 0 0-22.121-9.601 31.833 31.833 0 0 0-22.695 8.849zm3.844 19.125a9.55 9.55 0 0 0 6.617-2.665s13.547-12.992 25.092-24.072a12.716 12.716 0 0 1 9.059-3.532 12.692 12.692 0 0 1 8.823 3.831l.153.153a12.712 12.712 0 0 1-.446 17.882l-26.361 25.29a30.606 30.606 0 0 1-21.178 8.517h-33.564c-5.278 0-9.562 4.278-9.562 9.562v61.468a3.33 3.33 0 0 1-3.328 3.328H90.87a3.358 3.358 0 0 1-2.544-1.179 3.35 3.35 0 0 1-.74-2.703c2.748-16.218 7.223-42.681 10.965-64.834 3.035-17.926 18.558-31.046 36.739-31.046z" fill="#000000" opacity="1" data-original="#000000" class></path><path d="m127.768 278.052 10.149-60.008c.88-5.208-2.633-10.143-7.835-11.022-5.202-.886-10.143 2.626-11.022 7.829l-10.149 60.014c-.88 5.202 2.633 10.143 7.835 11.022 5.202.88 10.143-2.627 11.022-7.835zM307.046 138.631l20.024-54.602c1.817-4.96-.733-10.455-5.686-12.272-4.96-1.817-10.455.733-12.272 5.687l-20.024 54.602c-1.817 4.96.733 10.455 5.686 12.272 4.96 1.816 10.455-.734 12.272-5.687zM217.885 376.59h26.501c5.278 0 9.562-4.284 9.562-9.562 0-5.279-4.284-9.562-9.562-9.562h-26.501c-5.278 0-9.562 4.284-9.562 9.562s4.284 9.562 9.562 9.562z" fill="#000000" opacity="1" data-original="#000000" class></path></g></g></svg>
+						</div>
+						<h4 class="sigma-services-title text-[22px] leading-[32px] text-heading pt-[20px] xl:text-[20px]">High Quality Courses</h4>
+						<p class="sigma-services-text pt-[15px]">Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna.</p>
+					</div>
+					<div class="sigma-services-item text-center bg-white py-[60px] px-[50px] xl:px-[40px] xl:py-[40px]  rounded-[5px] shadow-[0_10px_30px_0_rgba(0,0,0,0.05)]">
+						<div class="sigma-services-icon sigma-icon-two flex justify-center items-center mx-auto bg-[#0700522e] h-[100px] w-[100px] rounded-[50%] transition-all duration-300 ease-in-out">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class><g><defs><clippath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#000000" opacity="1" data-original="#000000"></path></clippath></defs><path d="M0 0h139.479" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="matrix(1.33333 0 0 -1.33333 65.968 385.323)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0h139.479" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="matrix(1.33333 0 0 -1.33333 65.968 429.577)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0c-9.405-9.405-9.405-24.654 0-34.059 9.405-9.405 24.654-9.405 34.059 0 9.405 9.405 9.405 24.654 0 34.059C24.654 9.405 9.405 9.405 0 0Z" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(419.997 354.87)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0v35.153c0 7.612 6.17 13.782 13.781 13.782h111.917c7.611 0 13.781-6.17 13.781-13.782V-73.873c0-7.611-6.17-13.781-13.781-13.781H13.781C6.17-87.654 0-81.484 0-73.873v38.81m421.824 74.472v29.993c0 11.878-9.63 21.508-21.508 21.508H-20.468c-11.879 0-21.508-9.63-21.508-21.508v-264.921c0-11.877 9.629-21.507 21.508-21.507H96.296" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(49.476 344.503)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0h145.902c11.878 0 21.508 9.63 21.508 21.508v93.105" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(303.89 127.477)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="m0 0-128.916-128.916a14.456 14.456 0 0 1-4.233-10.149l-.12-24.597c-.036-7.288 5.881-13.205 13.17-13.17l24.597.12a14.452 14.452 0 0 1 10.148 4.233l3.982 3.982a11.063 11.063 0 0 1 3.232 8.263l-.564 14.194c-.261 6.573 5.237 11.922 11.801 11.479l13.223-.892c3.186-.215 6.31.958 8.568 3.216 3.319 3.443 4.538 4.198 5.723 6.295a11.059 11.059 0 0 1 1.423 5.882l-.564 14.194c-.261 6.574 5.237 11.922 11.801 11.479l13.223-.891a11.06 11.06 0 0 1 8.568 3.215l3.978 3.977a11.063 11.063 0 0 1 3.231 8.264l-.563 14.193c-.262 6.573 5.236 11.922 11.8 11.48l13.223-.893c3.186-.215 6.31.958 8.568 3.216l8.264 8.263" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(309.041 253.419)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0c-9.405-9.405-24.653-9.405-34.059 0-9.405 9.404-9.405 24.653 0 34.059 9.406 9.405 24.654 9.405 34.059 0C9.405 24.653 9.405 9.404 0 0Zm-72.333-94.976c29.915-10.431 64.127-5.012 89.578 16.254a93.761 93.761 0 0 1 6.162 5.635c36.051 36.051 36.051 94.501 0 130.552a94.058 94.058 0 0 1-6.162 5.636c-36.268 30.305-90.328 28.426-124.39-5.636-25.892-25.892-33.188-63.336-21.889-95.74" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(454.055 320.812)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0v0c-6.227-6.227-6.227-16.322 0-22.549l4.917-4.917L48.48-71.028l3.448-3.449c6.226-6.226 16.322-6.226 22.549 0 6.226 6.227 6.226 16.323 0 22.549L22.549 0l-.005.005C16.317 6.227 6.225 6.226 0 0Z" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(304.124 280.885)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0h12.681c7.611 0 13.781 6.17 13.781 13.781v36.981M0 0v14.552c0 17.986-10.973 33.41-26.589 39.942" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(162.493 256.849)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0c-15.617-6.532-26.59-21.956-26.59-39.942v-14.552" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(102.528 311.343)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path><path d="M0 0c6.475 4.998 10.645 12.836 10.645 21.648 0 15.096-12.237 27.333-27.333 27.333-15.096 0-27.333-12.237-27.333-27.333 0-8.812 4.17-16.65 10.645-21.648a27.214 27.214 0 0 1 16.688-5.685A27.216 27.216 0 0 1 0 0z" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(135.904 311.343)" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity data-original="#000000" class></path></g></g></svg>
+						</div>
+						<h4 class="sigma-services-title text-[22px] leading-[32px] text-heading pt-[20px] xl:text-[20px]">Life Time Access</h4>
+						<p class="sigma-services-text pt-[15px]">Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna.</p>
+					</div>
+					<div class="sigma-services-item text-center bg-white py-[60px] px-[50px] xl:px-[40px] xl:py-[40px]  rounded-[5px] shadow-[0_10px_30px_0_rgba(0,0,0,0.05)]">
+						<div class="sigma-services-icon sigma-icon-one flex justify-center items-center mx-auto bg-[#0700522e] h-[100px] w-[100px] rounded-[50%] transition-all duration-300 ease-in-out">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class><g><path d="M62.421 1h-60a1 1 0 0 0-1 1v36a1 1 0 0 0 1 1h3v6h2v-8c0-2.586 1.982-4.696 4.503-4.95l-1.431 3.578c-.087.22-.095.463-.02.688l2 6a.999.999 0 0 0 1.897 0l2-6a1.005 1.005 0 0 0-.02-.688L14.899 32h3.22c.395 0 .778-.116 1.109-.336l7.916-5.277.903 1.354-8.346 5.842a3.003 3.003 0 0 0-1.28 2.458V47h2v-8h42a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm-49 24c1.438 0 2.795.451 3.973 1.269C17.253 28.347 15.535 30 13.421 30s-3.832-1.653-3.973-3.732C10.627 25.451 11.984 25 13.421 25zm-3.16-1.423c.731-.952 1.869-1.577 3.16-1.577s2.429.625 3.161 1.577a8.932 8.932 0 0 0-6.321 0zm3.16 15.261-.936-2.807.936-2.339.936 2.339zm48-1.838h-41v-.958a1 1 0 0 1 .426-.819l8.347-5.842a2.007 2.007 0 0 0 .597-2.596l8.218-5.975-1.176-1.617-8.154 5.929a1.996 1.996 0 0 0-2.645-.398L18.119 30h-.238a5.97 5.97 0 0 0 1.54-4c0-3.309-2.691-6-6-6s-6 2.691-6 6c0 1.85.842 3.505 2.162 4.607C7.135 31.698 5.421 34.151 5.421 37h-2V3h58zM11.251 55.115A4.996 4.996 0 0 0 13.421 51c0-2.757-2.243-5-5-5s-5 2.243-5 5c0 1.706.862 3.212 2.17 4.115A6.24 6.24 0 0 0 1.421 61v2h2v-2a4.254 4.254 0 0 1 3.738-4.23h2.524A4.254 4.254 0 0 1 13.421 61v2h2v-2a6.24 6.24 0 0 0-4.17-5.885zM8.421 48c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M27.251 55.115A4.996 4.996 0 0 0 29.421 51c0-2.757-2.243-5-5-5s-5 2.243-5 5c0 1.706.862 3.212 2.17 4.115A6.24 6.24 0 0 0 17.421 61v2h2v-2a4.254 4.254 0 0 1 3.738-4.23h2.524A4.254 4.254 0 0 1 29.421 61v2h2v-2a6.24 6.24 0 0 0-4.17-5.885zM24.421 48c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zM43.251 55.115A4.996 4.996 0 0 0 45.421 51c0-2.757-2.243-5-5-5s-5 2.243-5 5c0 1.706.862 3.212 2.17 4.115A6.24 6.24 0 0 0 33.421 61v2h2v-2a4.254 4.254 0 0 1 3.738-4.23h2.524A4.254 4.254 0 0 1 45.421 61v2h2v-2a6.24 6.24 0 0 0-4.17-5.885zM40.421 48c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zM59.251 55.115A4.996 4.996 0 0 0 61.421 51c0-2.757-2.243-5-5-5s-5 2.243-5 5c0 1.706.862 3.212 2.17 4.115A6.24 6.24 0 0 0 49.421 61v2h2v-2a4.254 4.254 0 0 1 3.738-4.23h2.524A4.254 4.254 0 0 1 61.421 61v2h2v-2a6.24 6.24 0 0 0-4.17-5.885zM56.421 48c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zM52.853 9.167l-.272 1.672a1 1 0 0 0 1.471 1.037l1.37-.757 1.37.757a1.002 1.002 0 0 0 1.47-1.038l-.272-1.671 1.147-1.176a1.001 1.001 0 0 0-.565-1.687l-1.545-.236-.7-1.492a1 1 0 0 0-1.811-.001l-.701 1.492-1.545.237a1 1 0 0 0-.565 1.687zm1.793-1.204A1 1 0 0 0 55.4 7.4l.022-.046.021.046a.998.998 0 0 0 .754.563l.149.023-.141.145a.999.999 0 0 0-.271.859l.022.138-.051-.028a1 1 0 0 0-.967 0l-.052.028.022-.138a.999.999 0 0 0-.271-.859l-.141-.145zM41.421 21c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.346 3 3 3zm0-4c.551 0 1 .449 1 1s-.449 1-1 1-1-.449-1-1 .449-1 1-1zM6.421 5h7v2h-7zM15.421 5h12v2h-12zM6.421 9h2v2h-2zM6.421 13h12v2h-12zM10.421 9h17v2h-17zM20.421 13h7v2h-7zM54.421 13h2v2h-2zM54.421 17h2v2h-2zM50.421 17h2v2h-2zM46.421 17h2v2h-2z" fill="#000000" opacity="1" data-original="#000000"></path></g></svg>
+						</div>
+						<h4 class="sigma-services-title text-[22px] leading-[32px] text-heading pt-[20px] xl:text-[20px]">Expert Instructors</h4>
+						<p class="sigma-services-text pt-[15px]">Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Why Choose Area Ends =========================================== -->
+		<!-- =========================== Testimonial Area Start =========================================== -->
+		<div class="sigma-testimonial-area sigma-section-specing-has-bg bg-sigma-section-bg sigma-animation">
+			<div class="container-fluid">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px]">Reviews & Ratings</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						Average client rating 4.8/5
+						<span class="inline-block">
+							<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.3747 5.78782L11.0497 5.01375L8.66925 0.186112C8.60149 0.0708045 8.47778 0 8.34408 0C8.21038 0 8.08668 0.0708045 8.01891 0.186112L5.63734 5.01267L0.310905 5.78782C0.174273 5.80755 0.0606819 5.90317 0.0178827 6.03448C-0.0249165 6.1658 0.0104975 6.31003 0.109237 6.40656L3.96342 10.1647L3.05374 15.471C3.03052 15.6071 3.08644 15.7445 3.19801 15.8257C3.30958 15.9068 3.4575 15.9176 3.57967 15.8535L8.34281 13.3484L13.106 15.8524C13.2281 15.9165 13.376 15.9057 13.4876 15.8246C13.5992 15.7434 13.6551 15.606 13.6319 15.47L12.7222 10.1647L16.5764 6.40656C16.6751 6.31008 16.7106 6.16591 16.6678 6.03462C16.6251 5.90333 16.5116 5.80766 16.3751 5.78782H16.3747Z" fill="#F5A623" />
+							</svg>
+						</span>
+					</p>
+				</div>
+				<div class="sigma-testimonial-items mt-[60px] md:mt-[40px]">
+					<div class="swiper testimonialSlider ">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_135" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-01.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Jamie Watson</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Instructor</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_1235" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-02.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Nean Keller</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Student</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap  gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_1315" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-03.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Wulen Carter</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Student</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_2277_135" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-02.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Wulen Carter</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Instructor</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="sigma-testimonial-wrap bg-white p-[30px] border-[1px] border-solid border-[rgba(0, 0, 0, 0.11)] rounded-[4px]">
+									<div class="sigma-testimonial-rating font-bold text-[18px] leading-7 flex items-center flex-wrap gap-[5px]">
+										<span class="sigma-tr-star text-sigma-secondary">
+											<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1635 6.78782L11.8385 6.01375L9.45795 1.18611C9.39018 1.0708 9.26647 1 9.13278 1C8.99908 1 8.87537 1.0708 8.8076 1.18611L6.42601 6.01267L1.09954 6.78782C0.96291 6.80755 0.849318 6.90317 0.806518 7.03448C0.763719 7.1658 0.799133 7.31003 0.897873 7.40656L4.75208 11.1647L3.84239 16.471C3.81918 16.6071 3.8751 16.7445 3.98667 16.8257C4.09824 16.9068 4.24616 16.9176 4.36833 16.8535L9.13151 14.3484L13.8947 16.8524C14.0169 16.9165 14.1648 16.9057 14.2763 16.8246C14.3879 16.7434 14.4438 16.606 14.4206 16.47L13.5109 11.1647L17.3651 7.40656C17.4639 7.31008 17.4993 7.16591 17.4566 7.03462C17.4139 6.90333 17.3004 6.80766 17.1638 6.78782H17.1635Z" fill="url(#paint0_linear_277_135)" stroke="#F6AE37" stroke-width="0.5" />
+												<defs>
+													<lineargradient id="paint0_linear_277_1385" x1="1.20779" y1="10.9556" x2="16.2" y2="10.9556" gradientUnits="userSpaceOnUse">
+														<stop offset="0.654067" stop-color="#F5A623" />
+														<stop offset="0.654167" stop-color="#F5A623" stop-opacity="0" />
+													</lineargradient>
+												</defs>
+											</svg>
+										</span>
+										<span class="sigma-tr-number-wrap">(<span class="sigma-tr-number text-heading">4.9/5</span>)</span>
+										<span class="sigma-tr-topic-wrap">for<span class="sigma-tr-topic-name text-heading"> Web Design</span></span>
+									</div>
+									<p class="sigma-testimonial-text text-[#7C8087] font-medium text-[16px] leading-[26px] pt-[15px]">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Eu consectetur sed proi
+										vulputate ac adipiscing massa. Egeha
+										laoreet quam ullamcorper sit neque.
+									</p>
+									<div class="sigma-testimonial-member-wrap flex items-center gap-[10px] pt-[20px]">
+										<div class="sigma-tm-thum">
+											<img class="w-[40px] h-[40px] rounded-[50%]" src="assets/image/testimonial/reviewer-01.png" alt="Reviewer">
+										</div>
+										<div class="sigma-tm-details">
+											<h6 class="sigma-tm-name text-[14px] font-bold leading-[24px] -tracking-[0.02em] -mb-[8px]">Jamie Watson</h6>
+											<span class="sigma-tm-designation text-[10px] leading-[26px] font-semibold text-sigma-title-50">Instructor</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Navigation -->
+						<div class="swiper-button-next sigma-testimonial-slider-nav right-0  after:hidden">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M5 12L19 12" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M12 5L19 12L12 19" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev sigma-testimonial-slider-nav left-0 after:hidden">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M19 12H5" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M12 19L5 12L12 5" stroke="#03071E" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Testimonial Area Ends =========================================== -->
+		<!-- =========================== Instructors Area Start =========================================== -->
+		<div class="sigma-instructors-area sigma-section-padding sigma-animation">
+			<div class="container-fluid">
+				<div class="sigma-section-title-wrap text-center">
+					<h2 class="sigma-section-title mb-0 text-sigma-title -tracking-[.94px]">Top Instructors</h2>
+					<p class="sigma-section-subtitle text-[16px] text-paragraph leading-[26px] font-semibold w-[450px] mx-auto pt-[10px] md:w-[80%] sm:w-full">
+						Choose the best contents out of greatest instructors available online.Choose from the elites.
+					</p>
+				</div>
+
+				<div class="sigma-instructor-list pt-[60px] md:pt-[40px]">
+					<div class="grid grid-cols-6 xl:grid-cols-3 mls:grid-cols-2 mm:grid-cols-1 gap-[30px]">
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/image/instructor/instructor-01.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Olivia Rhye</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Mathematics Instructor</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/image/instructor/instructor-02.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Phoenix Baker</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Photographer</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/image/instructor/instructor-03.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Malcolm Menon</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Software Engineer</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/image/instructor/instructor-04.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Toden Kalam</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Psychologist</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/image/instructor/instructor-05.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Demi Wilkinson</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Linux Administrator</p>
+							</div>
+						</div>
+
+						<div class="sigma-instructor-wrap sigma-animation">
+							<div class="sigma-instructor-img">
+								<img class="w-full" src="assets/image/instructor/instructor-06.png" alt="Instructor">
+							</div>
+							<div class="sigma-instructor-details pt-[15px]">
+								<h5 class="sigma-instructor-name text-sigma-title text-[22px] leading-[32px] -tracking-[.22px] mb-0"><a href="instructor-details.html">Cohan Enhel</a></h5>
+								<p class="sigma-instructor-designation text-sigma-accent text-[16px] leading-[26px] font-primary xx:text-[14px] xx:leading-[24px]">Wellness instructor</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-more-instructors text-center pt-[60px] md:pt-[40px]">
+					<a class="sigma-btn sigma-btn-transparent sigma-btn-icon" href="instructor-1.html">
+						View All Instructors
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<path d="M7 17L17 7M17 7H7M17 7V17" stroke="#03071E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- =========================== Instructors Area Ends =========================================== -->
+
+		<!-- =========================== Footer Area Start =========================================== -->
+		<div class="sigma-footer-area sigma-section-padding sigma-section-margin pb-[45px] bg-sigma-section-bg-2">
+			<div class="container-md">
+				<div class="sigma-call-to-action-area w-[656px] lg:w-full mx-auto">
+					<h4 class="sigma-cta-heading text-white -tracking-[.58px] text-center leading-[42px] md:leading-[37px] sm:leading-[34px] mb-[15px]">
+						Become an instructor, teach greatest courses that you want to share the world.
+					</h4>
+					<p class="sigma-cta-test text-white text-[16px] leading-[26px] text-center">
+						Teach your best expertise. Get started in few clicks.
+					</p>
+					<div class="sgima-cta-btn-wrap sigma-btn-wrap flex flex-wrap gap-[30px] justify-center items-center pt-[40px]">
+						<a class="sigma-cta-btn font-semibold text-[16px] leading-[28px] bg-sigma-secondary  text-sigma-brand hover:bg-white sigma-btn relative overflow-hidden " href="contact.html">
+							Get Started
+						</a>
+						<a class="sigma-btn sigma-play-btn bg-transparent text-white font-semibold text-[16px] leading-[28px] px-0 flex gap-[15px] items-center no-underline transition-all duration-300 ease-in-out hover:bg-transparent hover:text-sigma-secondary  " href="https://www.youtube.com/watch?v=ENMVBipt8RM">
+							<span class="sigma-play-icon bg-white flex justify-center items-center h-[47px] w-[47px] rounded-[50%] leading-[47px]  border-[1px] border-solid border-sigma-secondary transition-all duration-300 ease-in-out text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+									<path d="M12.9646 7.07236C13.3118 7.26585 13.3118 7.73406 12.9646 7.92754L2.1076 13.978C1.7252 14.1911 1.3 13.9074 1.3 13.5504L1.3 1.4495C1.3 1.09249 1.7252 0.808804 2.1076 1.02191L12.9646 7.07236Z" fill="#0E0062" stroke="black" />
+								</svg>
+							</span>
+							Watch Intro
+						</a>
+					</div>
+				</div>
+
+				<div class="sigma-footer-bottom py-[60px] mt-[60px] mb-[30px] md:py-[40px] md:mt-[40px] border-t border-b border-solid border-[#7F56D9] border-b-[#eaecf059]">
+					<div class="grid grid-cols-12 gap-[60px] xl:gap-[30px] lg:gap-x-[10px] lg:gap-y-[40px]">
+						<div class="col-span-4 lg:col-span-12">
+							<div class="sigma-footer-item-wrap">
+								<div class="sigma-footer-logo -ml-[10px]">
+									<a href="index.html">
+										<img src="assets/image/logo/logo-white.png" alt="Logo">
+									</a>
+								</div>
+								<p class="sigma-footer-text pt-[45px] lg:pt-[20px] text-white text-[16px] leading-[28px] w-[340px] xl:w-full">
+									Design amazing digital experiences that create more happy in the world. Design amazing digital experiences that create more happy in the world.
+								</p>
+							</div>
+						</div>
+						<div class="col-span-3 lg:col-span-6">
+							<div class="sigma-footer-item-wrap">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Products</h6>
+								<ul class="sigma-footer-lists flex flex-col gap-[12px] list-none pt-[15px]">
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="signaup.html">Registration</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="course-page.html">Courses</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="about.html">Why Choose Us</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="instructor-1.html">Instructor</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="contact.html">Get In Tuch</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-span-3 lg:col-span-6">
+							<div class="sigma-footer-item-wrap">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Resources</h6>
+								<ul class="sigma-footer-lists flex flex-col gap-[12px] list-none pt-[15px]">
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="index.html">Home</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="course-page.html">Courses</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="about.html">About Us</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="blog.html">Blog</a></li>
+									<li><a class="sigma-footer-list text-white text-[16px] font-medium leading-[24px] hover:text-sigma-secondary" href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-span-2 lg:col-span-12">
+							<div class="sigma-footer-item-wrap text-right lg:text-left">
+								<h6 class="sigma-footer-title text-white text-[22px] leading-[32px] -tracking-[.22px]">Get the app</h6>
+								<div class="sigma-footer-image-wrap flex flex-col gap-[15px] items-end pt-[15px] lg:items-start">
+									<a class="sigma-footer-img" href="https://www.apple.com/app-store/">
+										<img src="assets/image/icon/apple-store-white.png" alt="Apple store">
+									</a>
+									<a class="sigma-footer-img" href="https://play.google.com/store/">
+										<img src="assets/image/icon/google-play-store-white.png" alt="Play store">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sigma-footer-bottom flex flex-wrap justify-between gap-[30px] items-center md:flex-col">
+					<p class="sigma-copyright-text text-white text-[16px] leading-[24px]">© 2024 Sigma Education Center. All rights reserved.</p>
+					<ul class="sigma-footer-social-wrap flex gap-[24px] list-none">
+						<li class="sigma-footer-social-item">
+							<a href="https://x.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M7.55016 21.7502C16.6045 21.7502 21.5583 14.2469 21.5583 7.74211C21.5583 7.53117 21.5536 7.31554 21.5442 7.1046C22.5079 6.40771 23.3395 5.5445 24 4.55554C23.1025 4.95484 22.1496 5.21563 21.1739 5.32898C22.2013 4.71315 22.9705 3.74572 23.3391 2.60601C22.3726 3.1788 21.3156 3.58286 20.2134 3.80085C19.4708 3.01181 18.489 2.48936 17.4197 2.3143C16.3504 2.13923 15.2532 2.32129 14.2977 2.83234C13.3423 3.34339 12.5818 4.15495 12.1338 5.14156C11.6859 6.12816 11.5754 7.23486 11.8195 8.29054C9.86249 8.19233 7.94794 7.68395 6.19998 6.79834C4.45203 5.91274 2.90969 4.66968 1.67297 3.14976C1.0444 4.23349 0.852057 5.51589 1.13503 6.73634C1.418 7.95678 2.15506 9.02369 3.19641 9.72023C2.41463 9.69541 1.64998 9.48492 0.965625 9.10617V9.1671C0.964925 10.3044 1.3581 11.4068 2.07831 12.287C2.79852 13.1672 3.80132 13.7708 4.91625 13.9952C4.19206 14.1934 3.43198 14.2222 2.69484 14.0796C3.00945 15.0577 3.62157 15.9131 4.44577 16.5266C5.26997 17.14 6.26512 17.4808 7.29234 17.5015C5.54842 18.8714 3.39417 19.6144 1.17656 19.6109C0.783287 19.6103 0.390399 19.5861 0 19.5387C2.25286 20.984 4.87353 21.7516 7.55016 21.7502Z" fill="white" />
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://www.linkedin.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z" fill="white" />
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://www.facebook.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g clip-path="url(#clip0_868_37072)">
+										<path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z" fill="white" />
+									</g>
+									<defs>
+										<clippath id="clip0_868_37072">
+											<rect width="24" height="24" fill="white" />
+										</clippath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+						<li class="sigma-footer-social-item">
+							<a href="https://github.com/">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g clip-path="url(#clip0_868_37073)">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.3724 0 0 5.3808 0 12.0204C0 17.3304 3.438 21.8364 8.2068 23.4252C8.8068 23.5356 9.0252 23.1648 9.0252 22.8456C9.0252 22.5612 9.0156 21.804 9.0096 20.802C5.6712 21.528 4.9668 19.1904 4.9668 19.1904C4.422 17.8008 3.6348 17.4312 3.6348 17.4312C2.5452 16.6872 3.7176 16.7016 3.7176 16.7016C4.9212 16.7856 5.5548 17.94 5.5548 17.94C6.6252 19.776 8.364 19.2456 9.0468 18.9384C9.1572 18.162 9.4668 17.6328 9.81 17.3328C7.146 17.0292 4.344 15.9972 4.344 11.3916C4.344 10.08 4.812 9.006 5.5788 8.166C5.4552 7.8624 5.0436 6.6396 5.6964 4.986C5.6964 4.986 6.7044 4.662 8.9964 6.2172C9.97532 5.95022 10.9853 5.81423 12 5.8128C13.02 5.8176 14.046 5.9508 15.0048 6.2172C17.2956 4.662 18.3012 4.9848 18.3012 4.9848C18.9564 6.6396 18.5436 7.8624 18.4212 8.166C19.1892 9.006 19.6548 10.08 19.6548 11.3916C19.6548 16.0092 16.848 17.0256 14.1756 17.3232C14.6064 17.694 14.9892 18.4272 14.9892 19.5492C14.9892 21.1548 14.9748 22.452 14.9748 22.8456C14.9748 23.1672 15.1908 23.5416 15.8004 23.424C18.19 22.6225 20.2672 21.0904 21.7386 19.0441C23.2099 16.9977 24.001 14.5408 24 12.0204C24 5.3808 18.6264 0 12 0Z" fill="white" />
+									</g>
+									<defs>
+										<clippath id="clip0_868_37073">
+											<rect width="24" height="24" fill="white" />
+										</clippath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- =========================== Footer Area Ends =========================================== -->
+
+		<!-- scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/vendors/magnifi-popup/jquery.magnific-popup.min.js"></script>
+		<script src="assets/vendors/counter-up/purecounter.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/vendors/wow-js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>
