@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css">
         <link rel="stylesheet" href="assets/vendors/magnifi-popup/magnific-popup.css">
-        <link rel="stylesheet" href="assets/vendors/animate-css/animate.min.css">
+        <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css">
         <link rel="stylesheet" href="assets/css/root.css">
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
@@ -122,13 +122,13 @@
                                         <li class="menu-item-has-children active">
                                             <a href="#">Pages</a>
                                             <ul class="sub-menu">
-                                                <li class="menu-item-has-children active">
+                                                <li class="menu-item-has-children">
                                                     <a href="shop.html">Shop</a>
                                                     <ul class="sub-menu">
                                                         <li><a href="shop.html">Shop</a></li>
                                                         <li><a href="shop-details.html">Shop Details</a></li>
                                                         <li><a href="cart.html">Cart</a></li>
-                                                        <li class="active"><a href="wishlist.html">Wishlist</a></li>
+                                                        <li><a href="wishlist.html">Wishlist</a></li>
                                                         <li><a href="checkout.html">Checkout</a></li>
                                                     </ul>
                                                 </li>
@@ -139,7 +139,7 @@
                                                         <li><a href="instructor-details.html">Instructor Details</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li class="active"><a href="contact.html">Contact</a></li>
                                                 <li><a href="signaup.html">Sign Up</a></li>
                                                 <li><a href="signin.html">Sign In</a></li>
                                                 <li><a href="404.html">404 Page</a></li>
@@ -231,69 +231,112 @@
         <div class="sigma-page-title-area sigma-page-title-dark bg-sigma-section-bg-2 sigma-section-specing-has-bg-no-margin">
             <div class="container-md">
                 <div class="sigma-page-title-wrap text-center">
-                    <h1 class="sigma-page-heading w-[780px] text-white text-[47px] leading-[57px] md:text-[40px] md:leading-[50px] sm:text-[32px] sm:leading-[42px] mb-0 mx-auto lg:w-[80%] md:w-[90%] sm:w-full">Wishlist</h1>
-                    <p class="sigma-page-description text-white pt-[20px] w-[500px] lg:w-full mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                    <h6 class="sigma-page-title text-sigma-secondary font-semibold mb-5">Contact Us</h6>
+                    <h1 class="sigma-page-heading w-[780px] text-white text-[47px] leading-[57px] md:text-[40px] md:leading-[50px] sm:text-[32px] sm:leading-[42px] mb-0 mx-auto lg:w-[80%] md:w-[90%] sm:w-full">Get In Touch</h1>
+                    <p class="sigma-page-description text-white pt-[20px] w-[500px] md:w-full mb-0 mx-auto">If you need any curated service, or have any query, We'll be more than happy to help!</p>
                 </div>
             </div>
         </div>
 
         <!-- =========================== Page Title Area Ends =========================================== -->
 
-        <!-- =========================== Wishlist Area Start =========================================== -->
-        <div class="sigma-wishlist-area sigma-section-padding sigma-animation">
+        <!-- =========================== Page Title Area Start =========================================== -->
+        <div class="sigma-contact-area sigma-section-padding">
             <div class="container-lg">
-                <div class="sigma-table-content lg:overflow-scroll">
-                    <table class="sigma-product-table bg-sigma-section-bg mb-0 w-full lg:w-[900px] md:w-[850px]">
-                        <thead class="border-b-[1px] border-solid border-sigma-bg-light">
-                            <tr class="text-left">
-                                <th class="sigma-product-remove"></th>
-                                <th class="sigma-cart-product-name text-center">Product name</th>
-                                <th class="sigma-product-price"> Price</th>
-                                <th class="sigma-product-quantity">Stock Status</th>
-                                <th class="sigma-product-quantity"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="sigma-product-remove text-center px-[25px] text-heading"><button><i class="fa-solid fa-xmark"></i></button></td>
-                                <td class="sigma-product-thumbnail items-center grid grid-cols-[80px_1fr] gap-[15px] lg:pr-[30px]">
-                                    <a href="shop-details.html">
-                                        <img src="assets/image/products/shop-1.png" alt="img">
-                                    </a>
-                                    <div class="sigma-product-details ">
-                                        <span class="sigma-product-category text-sigma-brand text-[14px] font-medium uppercase mb-[5px]">Book</span>
-                                        <h4 class="sigma-product-title text-[18px] mb-0">Power Guard Fortress</h4>
+                <div class="grid grid-cols-12 gap-x-[30px] sm:gap-x-0 sm:gap-y-[30px]">
+                    <div class="col-span-3 md:col-span-4 sm:col-span-12">
+                        <div class="sigma-contact-addres-wrap">
+                            <h3 class="sigma-contact-address-heading text-[37px] text-heading leading-[47px] -tracking-[.74px] mb-[5px] xl:text-[30px] xl:leading-[40px] sm:text-[22px] sm:leading-[32px]">Our Offices</h3>
+                            <p class="sigma-contact-address-desc text-paragraph">Schedule your visit with us.</p>
+                        </div>
+                    </div>
+                    <div class="col-span-9 md:col-span-8 sm:col-span-12">
+                        <div class="sigma-contact-address-wrap grid grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ml:grid-cols-1  gap-x-[40px] md:gap-x-[30px] sm:gap-x-0  md:gap-y-[30px]">
+                            <div class="sigma-addres-wrap">
+                                <h6 class="sigma-address-title text-[16px] text-heading leading-[32px] -tracking-[.22px] mb-[15px] ">Texas</h6>
+                                <p class="sigma-address text-paragraph xl:text-[14px]">450 Snip via De Coutol, TX</p>
+                                <span class="sigma-phone font-semibold text-heading xl:text-[14px]">Call Us:<a href="tel:+14508893601">+1 450 889 3601</a></span>
+                                <p class="sigma-day text-paragraph pt-[20px] xl:text-[14px]">Office hours: Monday - Friday</p>
+                                <p class="sigma-tme text-paragraph xl:text-[14px]">6 am to 8 pm EST</p>
+                            </div>
+                            <div class="sigma-addres-wrap">
+                                <h6 class="sigma-address-title text-[16px] text-heading leading-[32px] -tracking-[.22px] mb-[15px]">Arizona</h6>
+                                <p class="sigma-address text-paragraph xl:text-[14px]">149 Giraffe Street 22A, 520 AZ</p>
+                                <span class="sigma-phone font-semibold text-heading xl:text-[14px]">Call Us:<a href="tel:+1985658142">+1 985 658 142</a></span>
+                                <p class="sigma-day text-paragraph pt-[20px] xl:text-[14px]">Assistance hours: Monday - Friday</p>
+                                <p class="sigma-tme text-paragraph xl:text-[14px]">6 am to 8 pm EST</p>
+                            </div>
+                            <div class="sigma-addres-wrap">
+                                <h6 class="sigma-address-title text-[16px] text-heading leading-[32px] -tracking-[.22px] mb-[15px]">London</h6>
+                                <p class="sigma-address text-paragraph xl:text-[14px]">225 Baker St, London, UK</p>
+                                <span class="sigma-phone font-semibold text-heading xl:text-[14px]">Call Us:<a href="tel:+4.408.600.6705"> +4.408.600.6705</a></span>
+                                <p class="sigma-day text-paragraph pt-[20px] xl:text-[14px]">Assistance hours: Monday - Friday</p>
+                                <p class="sigma-tme text-paragraph xl:text-[14px]">6 am to 8 pm EST</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12 gap-x-[30px] sm:gap-x-0 sm:gap-y-[30px] pt-[80px] md:pt-[40px]">
+                    <div class="col-span-3 md:col-span-4 sm:col-span-12">
+                        <div class="sigma-contact-wrap">
+                            <h3 class="sigma-contact-address-heading text-[37px] text-heading leading-[47px] -tracking-[.74px] mb-[5px] xl:text-[30px] xl:leading-[40px] sm:text-[22px] sm:leading-[32px]">Inquiries</h3>
+                            <p class="sigma-contact-address-desc text-paragraph xl:text-[14px]">Fill in this form or <strong>send us an e-mail</strong> with your inquiry.</p>
+                        </div>
+                    </div>
+                    <div class="col-span-9 md:col-span-8 sm:col-span-12">
+                        <div class="sigma-contact-form-wrap">
+                            <form class="sigma-contact-form" action="#">
+                                <div class="grid grid-cols-3 xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  gap-x-[40px] gap-y-[30px]">
+                                    <div class="sigma-input-name">
+                                        <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Name*</label>
+                                        <input type="text" id="name" name="name" class="sigma-form-input text-heading bg-sigma-section-bg rounded-[4px] p-[16px] w-full border border-solid border-transparent placeholder:text-[15px] placeholder:text-sigma-title-50 placeholder:leading-[26px] mt-[10px] focus:border-sigma-secondary" placeholder="Your Full Name" required>
                                     </div>
-                                </td>
-                                <td class="sigma-product-price text-[16px] font-semibold pr-[70px] lg:pr-[60px] md:pr-[40px]"><span class="sigma-amount text-heading">$550.00</span></td>
-                                <td class="sigma-product-quantity">
-                                    <span>Out of stock</span>
-                                </td>
-                                <td class="sigma-product-addtocat pr-[30px] text-right"><button class="sigma-btn py-[12px] rounded-[40px]">Add to cart</button></td>
-                            </tr>
-                            <tr>
-                                <td class="sigma-product-remove text-center px-[25px] text-heading"><button><i class="fa-solid fa-xmark"></i></button></td>
-                                <td class="sigma-product-thumbnail items-center grid grid-cols-[80px_1fr] gap-[15px] lg:pr-[30px]">
-                                    <a href="shop-details.html">
-                                        <img src="assets/image/products/shop-1.png" alt="img">
-                                    </a>
-                                    <div class="sigma-product-details ">
-                                        <span class="sigma-product-category text-sigma-brand text-[14px] font-medium uppercase mb-[5px]">Book</span>
-                                        <h4 class="sigma-product-title text-[18px] mb-0">Power Guard Fortress</h4>
+                                    <div class="sigma-input-company">
+                                        <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Company*</label>
+                                        <input type="text" id="company" name="name" class="sigma-form-input text-heading bg-sigma-section-bg rounded-[4px] p-[16px] w-full border border-solid border-transparent placeholder:text-[15px] placeholder:text-sigma-title-50 placeholder:leading-[26px] mt-[10px] focus:border-sigma-secondary" placeholder="Your Company Name" required>
                                     </div>
-                                </td>
-                                <td class="sigma-product-price text-[16px] font-semibold pr-[70px] lg:pr-[60px] md:pr-[40px]"><span class="sigma-amount text-heading">$550.00</span></td>
-                                <td class="sigma-product-quantity">
-                                    <span>Out of stock</span>
-                                </td>
-                                <td class="sigma-product-addtocat pr-[30px] text-right"><button class="sigma-btn py-[12px] rounded-[40px]">Add to cart</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                    <div class="sigma-input-phone">
+                                        <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Phone(Optional)</label>
+                                        <input type="text" id="phone" name="name" class="sigma-form-input text-heading bg-sigma-section-bg rounded-[4px] p-[16px] w-full border border-solid border-transparent placeholder:text-[15px] placeholder:text-sigma-title-50 placeholder:leading-[26px] mt-[10px] focus:border-sigma-secondary" placeholder="Your Phone Number">
+                                    </div>
+                                    <div class="sigma-input-email">
+                                        <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Email*</label>
+                                        <input type="email" id="email" name="name" class="sigma-form-input text-heading bg-sigma-section-bg rounded-[4px] p-[16px] w-full border border-solid border-transparent placeholder:text-[15px] placeholder:text-sigma-title-50 placeholder:leading-[26px] mt-[10px] focus:border-sigma-secondary" placeholder="Your Email Address" required>
+                                    </div>
+                                    <div class="sigma-input-option">
+                                        <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Subject(Optional)</label>
+                                        <select id="subject" class="sigma-select mt-[10px] bg-sigma-section-bg w-full h-[60px] leading-[60px] px-[16px] border-transparent hover:border-transparent">
+                                            <option>Choose a course</option>
+                                            <option>Mathematics</option>
+                                            <option>Statistics</option>
+                                            <option>Science</option>
+                                        </select>
+                                    </div>
+                                    <div class="sigma-input-option">
+                                        <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Urgency*</label>
+                                        <select id="subject2" class="sigma-select mt-[10px] bg-sigma-section-bg w-full h-[60px] leading-[60px] px-[16px] border-transparent hover:border-transparent">
+                                            <option>Very Urgent</option>
+                                            <option>Urgent</option>
+                                            <option>Low Urgent</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="sigma-text-area mt-[30px]">
+                                    <label for="name" class="sigma-input-label text-sigma-title-90 text-[18px] font-bold -tracking-[.18px] leading-[28px]">Message*</label>
+                                    <textarea name="message" id="message" class="sigma-form-textarea text-heading bg-sigma-section-bg rounded-[4px] p-[16px] w-full h-[174px] resize-none border border-solid border-transparent placeholder:text-[15px] placeholder:text-sigma-title-50 placeholder:leading-[26px] mt-[10px] focus:border-sigma-secondary" placeholder="Your Message" required></textarea>
+                                </div>
+
+                            </form>
+                            <!-- create contact form -->
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- =========================== Wishlist Area Ends =========================================== -->
+
+        <!-- =========================== Page Title Area Ends =========================================== -->
 
         <!-- =========================== Footer Area Start =========================================== -->
         <div class="sigma-footer-area sigma-section-padding sigma-section-margin pb-[45px] bg-sigma-section-bg-2">
@@ -375,7 +418,7 @@
                 </div>
 
                 <div class="sigma-footer-bottom flex flex-wrap justify-between gap-[30px] items-center md:flex-col">
-                    <p class="sigma-copyright-text text-white text-[16px] leading-[24px]">© 2024 Sigma Education Center. All rights reserved.</p>
+                    <p class="sigma-copyright-text text-white text-[16px] leading-[24px]">© 2025 Sigma Education Center. All rights reserved.</p>
                     <ul class="sigma-footer-social-wrap flex gap-[24px] list-none">
                         <li class="sigma-footer-social-item">
                             <a href="https://x.com/">
@@ -431,7 +474,7 @@
         <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
         <script src="assets/vendors/magnifi-popup/jquery.magnific-popup.min.js"></script>
         <script src="assets/vendors/counter-up/purecounter.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
         <script src="assets/vendors/wow-js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
